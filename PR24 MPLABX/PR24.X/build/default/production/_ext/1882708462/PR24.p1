@@ -1,0 +1,2692 @@
+Version 3.2 HI-TECH Software Intermediate Code
+"82 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _INDF `Vuc  1 e@0 ]
+"86 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _TMR0 `Vuc  1 e@1 ]
+"90 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _PCL `Vuc  1 e@2 ]
+"94 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _STATUS `Vuc  1 e@3 ]
+"96 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _CARRY `Vb  1 e@24 ]
+"97 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _DC `Vb  1 e@25 ]
+"98 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _ZERO `Vb  1 e@26 ]
+"99 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _nPD `Vb  1 e@27 ]
+"100 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _nTO `Vb  1 e@28 ]
+"101 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _IRP `Vb  1 e@31 ]
+"102 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _RP0 `Vb  1 e@29 ]
+"103 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _RP1 `Vb  1 e@30 ]
+[s S2 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :2 `uc 1 :1 `uc 1 ]
+[n S2 . C DC Z nPD nTO RP IRP ]
+[s S3 :5 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S3 . . RP0 RP1 ]
+[u S1 `S2 1 `S3 1 ]
+[n S1 . . . ]
+"120 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _STATUSbits `VS1  1 e@3 ]
+"124 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _FSR `Vuc  1 e@4 ]
+"128 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _PORTA `Vuc  1 e@5 ]
+"130 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _RA0 `Vb  1 e@40 ]
+"131 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _RA1 `Vb  1 e@41 ]
+"132 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _RA2 `Vb  1 e@42 ]
+"133 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _RA3 `Vb  1 e@43 ]
+"134 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _RA4 `Vb  1 e@44 ]
+"135 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _RA5 `Vb  1 e@45 ]
+[s S5 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S5 . RA0 RA1 RA2 RA3 RA4 RA5 ]
+[u S4 `S5 1 ]
+[n S4 . . ]
+"146 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _PORTAbits `VS4  1 e@5 ]
+"150 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _PORTB `Vuc  1 e@6 ]
+"152 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _RB0 `Vb  1 e@48 ]
+"153 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _RB1 `Vb  1 e@49 ]
+"154 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _RB2 `Vb  1 e@50 ]
+"155 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _RB3 `Vb  1 e@51 ]
+"156 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _RB4 `Vb  1 e@52 ]
+"157 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _RB5 `Vb  1 e@53 ]
+"158 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _RB6 `Vb  1 e@54 ]
+"159 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _RB7 `Vb  1 e@55 ]
+[s S7 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S7 . RB0 RB1 RB2 RB3 RB4 RB5 RB6 RB7 ]
+[u S6 `S7 1 ]
+[n S6 . . ]
+"172 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _PORTBbits `VS6  1 e@6 ]
+"176 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _PORTC `Vuc  1 e@7 ]
+"178 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _RC0 `Vb  1 e@56 ]
+"179 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _RC1 `Vb  1 e@57 ]
+"180 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _RC2 `Vb  1 e@58 ]
+"181 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _RC3 `Vb  1 e@59 ]
+"182 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _RC4 `Vb  1 e@60 ]
+"183 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _RC5 `Vb  1 e@61 ]
+"184 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _RC6 `Vb  1 e@62 ]
+"185 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _RC7 `Vb  1 e@63 ]
+[s S9 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S9 . RC0 RC1 RC2 RC3 RC4 RC5 RC6 RC7 ]
+[u S8 `S9 1 ]
+[n S8 . . ]
+"198 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _PORTCbits `VS8  1 e@7 ]
+"202 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _PCLATH `Vuc  1 e@10 ]
+[s S11 :5 `uc 1 ]
+[n S11 . PCLATH ]
+[u S10 `S11 1 ]
+[n S10 . . ]
+"209 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _PCLATHbits `VS10  1 e@10 ]
+"213 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _INTCON `Vuc  1 e@11 ]
+"215 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _RBIF `Vb  1 e@88 ]
+"216 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _INTF `Vb  1 e@89 ]
+"217 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _TMR0IF `Vb  1 e@90 ]
+"218 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _RBIE `Vb  1 e@91 ]
+"219 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _INTE `Vb  1 e@92 ]
+"220 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _TMR0IE `Vb  1 e@93 ]
+"221 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _PEIE `Vb  1 e@94 ]
+"222 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _GIE `Vb  1 e@95 ]
+"223 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _T0IF `Vb  1 e@90 ]
+"224 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _T0IE `Vb  1 e@93 ]
+[s S13 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S13 . RBIF INTF TMR0IF RBIE INTE TMR0IE PEIE GIE ]
+[s S14 :2 `uc 1 :1 `uc 1 :2 `uc 1 :1 `uc 1 ]
+[n S14 . . T0IF . T0IE ]
+[u S12 `S13 1 `S14 1 ]
+[n S12 . . . ]
+"243 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _INTCONbits `VS12  1 e@11 ]
+"247 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _PIR1 `Vuc  1 e@12 ]
+"249 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _TMR1IF `Vb  1 e@96 ]
+"250 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _TMR2IF `Vb  1 e@97 ]
+"251 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _CCP1IF `Vb  1 e@98 ]
+"252 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _SSPIF `Vb  1 e@99 ]
+"253 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _TXIF `Vb  1 e@100 ]
+"254 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _RCIF `Vb  1 e@101 ]
+"255 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _ADIF `Vb  1 e@102 ]
+[s S16 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S16 . TMR1IF TMR2IF CCP1IF SSPIF TXIF RCIF ADIF ]
+[s S17 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :2 `uc 1 :1 `uc 1 ]
+[n S17 . . . . . . . ]
+[u S15 `S16 1 `S17 1 ]
+[n S15 . . . ]
+"275 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _PIR1bits `VS15  1 e@12 ]
+"279 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _PIR2 `Vuc  1 e@13 ]
+"281 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _CCP2IF `Vb  1 e@104 ]
+"282 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _BCLIF `Vb  1 e@107 ]
+"283 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _EEIF `Vb  1 e@108 ]
+"284 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _CMIF `Vb  1 e@110 ]
+[s S19 :1 `uc 1 :2 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S19 . CCP2IF . BCLIF EEIF . CMIF ]
+[u S18 `S19 1 ]
+[n S18 . . ]
+"295 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _PIR2bits `VS18  1 e@13 ]
+"300 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _TMR1L `Vuc  1 e@14 ]
+"304 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _TMR1H `Vuc  1 e@15 ]
+"308 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _TMR1 `Vui  1 e@14 ]
+"311 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _T1CON `Vuc  1 e@16 ]
+"313 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _TMR1ON `Vb  1 e@128 ]
+"314 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _TMR1CS `Vb  1 e@129 ]
+"315 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _nT1SYNC `Vb  1 e@130 ]
+"316 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _T1OSCEN `Vb  1 e@131 ]
+"317 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _T1SYNC `Vb  1 e@130 ]
+"318 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _T1CKPS0 `Vb  1 e@132 ]
+"319 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _T1CKPS1 `Vb  1 e@133 ]
+"320 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _T1INSYNC `Vb  1 e@130 ]
+[s S21 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :2 `uc 1 ]
+[n S21 . TMR1ON TMR1CS nT1SYNC T1OSCEN T1CKPS ]
+[s S22 :2 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S22 . . T1SYNC . T1CKPS0 T1CKPS1 ]
+[s S23 :2 `uc 1 :1 `uc 1 ]
+[n S23 . . T1INSYNC ]
+[u S20 `S21 1 `S22 1 `S23 1 ]
+[n S20 . . . . ]
+"341 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _T1CONbits `VS20  1 e@16 ]
+"345 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _TMR2 `Vuc  1 e@17 ]
+"349 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _T2CON `Vuc  1 e@18 ]
+"351 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _TMR2ON `Vb  1 e@146 ]
+"352 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _T2CKPS0 `Vb  1 e@144 ]
+"353 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _T2CKPS1 `Vb  1 e@145 ]
+"354 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _TOUTPS0 `Vb  1 e@147 ]
+"355 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _TOUTPS1 `Vb  1 e@148 ]
+"356 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _TOUTPS2 `Vb  1 e@149 ]
+"357 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _TOUTPS3 `Vb  1 e@150 ]
+[s S25 :2 `uc 1 :1 `uc 1 :4 `uc 1 ]
+[n S25 . T2CKPS TMR2ON TOUTPS ]
+[s S26 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S26 . T2CKPS0 T2CKPS1 . TOUTPS0 TOUTPS1 TOUTPS2 TOUTPS3 ]
+[u S24 `S25 1 `S26 1 ]
+[n S24 . . . ]
+"374 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _T2CONbits `VS24  1 e@18 ]
+"378 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _SSPBUF `Vuc  1 e@19 ]
+"382 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _SSPCON `Vuc  1 e@20 ]
+"384 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _CKP `Vb  1 e@164 ]
+"385 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _SSPEN `Vb  1 e@165 ]
+"386 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _SSPOV `Vb  1 e@166 ]
+"387 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _WCOL `Vb  1 e@167 ]
+"388 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _SSPM0 `Vb  1 e@160 ]
+"389 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _SSPM1 `Vb  1 e@161 ]
+"390 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _SSPM2 `Vb  1 e@162 ]
+"391 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _SSPM3 `Vb  1 e@163 ]
+[s S28 :4 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S28 . SSPM CKP SSPEN SSPOV WCOL ]
+[s S29 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S29 . SSPM0 SSPM1 SSPM2 SSPM3 ]
+[u S27 `S28 1 `S29 1 ]
+[n S27 . . . ]
+"407 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _SSPCONbits `VS27  1 e@20 ]
+"412 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _CCPR1L `Vuc  1 e@21 ]
+"416 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _CCPR1H `Vuc  1 e@22 ]
+"420 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _CCPR1 `Vui  1 e@21 ]
+"423 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _CCP1CON `Vuc  1 e@23 ]
+"425 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _CCP1Y `Vb  1 e@188 ]
+"426 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _CCP1X `Vb  1 e@189 ]
+"427 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _CCP1M0 `Vb  1 e@184 ]
+"428 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _CCP1M1 `Vb  1 e@185 ]
+"429 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _CCP1M2 `Vb  1 e@186 ]
+"430 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _CCP1M3 `Vb  1 e@187 ]
+[s S31 :4 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S31 . CCP1M CCP1Y CCP1X ]
+[s S32 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S32 . CCP1M0 CCP1M1 CCP1M2 CCP1M3 ]
+[u S30 `S31 1 `S32 1 ]
+[n S30 . . . ]
+"444 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _CCP1CONbits `VS30  1 e@23 ]
+"448 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _RCSTA `Vuc  1 e@24 ]
+"450 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _RX9D `Vb  1 e@192 ]
+"451 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _OERR `Vb  1 e@193 ]
+"452 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _FERR `Vb  1 e@194 ]
+"453 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _ADDEN `Vb  1 e@195 ]
+"454 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _CREN `Vb  1 e@196 ]
+"455 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _SREN `Vb  1 e@197 ]
+"456 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _RX9 `Vb  1 e@198 ]
+"457 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _SPEN `Vb  1 e@199 ]
+"458 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _RCD8 `Vb  1 e@192 ]
+"459 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _RC9 `Vb  1 e@198 ]
+"460 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _nRC8 `Vb  1 e@198 ]
+"461 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _RC8_9 `Vb  1 e@198 ]
+[s S34 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S34 . RX9D OERR FERR ADDEN CREN SREN RX9 SPEN ]
+[s S35 :1 `uc 1 :5 `uc 1 :1 `uc 1 ]
+[n S35 . RCD8 . RC9 ]
+[s S36 :6 `uc 1 :1 `uc 1 ]
+[n S36 . . nRC8 ]
+[s S37 :6 `uc 1 :1 `uc 1 ]
+[n S37 . . RC8_9 ]
+[u S33 `S34 1 `S35 1 `S36 1 `S37 1 ]
+[n S33 . . . . . ]
+"487 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _RCSTAbits `VS33  1 e@24 ]
+"491 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _TXREG `Vuc  1 e@25 ]
+"495 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _RCREG `Vuc  1 e@26 ]
+"500 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _CCPR2L `Vuc  1 e@27 ]
+"504 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _CCPR2H `Vuc  1 e@28 ]
+"508 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _CCPR2 `Vui  1 e@27 ]
+"511 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _CCP2CON `Vuc  1 e@29 ]
+"513 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _CCP2Y `Vb  1 e@236 ]
+"514 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _CCP2X `Vb  1 e@237 ]
+"515 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _CCP2M0 `Vb  1 e@232 ]
+"516 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _CCP2M1 `Vb  1 e@233 ]
+"517 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _CCP2M2 `Vb  1 e@234 ]
+"518 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _CCP2M3 `Vb  1 e@235 ]
+[s S39 :4 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S39 . CCP2M CCP2Y CCP2X ]
+[s S40 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S40 . CCP2M0 CCP2M1 CCP2M2 CCP2M3 ]
+[u S38 `S39 1 `S40 1 ]
+[n S38 . . . ]
+"532 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _CCP2CONbits `VS38  1 e@29 ]
+"536 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _ADRESH `Vuc  1 e@30 ]
+"540 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _ADCON0 `Vuc  1 e@31 ]
+"542 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _ADON `Vb  1 e@248 ]
+"543 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _GO_nDONE `Vb  1 e@250 ]
+"544 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _GO `Vb  1 e@250 ]
+"545 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _CHS0 `Vb  1 e@251 ]
+"546 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _CHS1 `Vb  1 e@252 ]
+"547 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _CHS2 `Vb  1 e@253 ]
+"548 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _ADCS0 `Vb  1 e@254 ]
+"549 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _ADCS1 `Vb  1 e@255 ]
+"550 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _nDONE `Vb  1 e@250 ]
+"551 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _GO_DONE `Vb  1 e@250 ]
+[s S42 :1 `uc 1 :1 `uc 1 :1 `uc 1 :3 `uc 1 :2 `uc 1 ]
+[n S42 . ADON . GO_nDONE CHS ADCS ]
+[s S43 :1 `uc 1 :1 `uc 1 :1 `uc 1 :3 `uc 1 :2 `uc 1 ]
+[n S43 . . . . . . ]
+[s S44 :2 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S44 . . GO CHS0 CHS1 CHS2 ADCS0 ADCS1 ]
+[s S45 :2 `uc 1 :1 `uc 1 ]
+[n S45 . . nDONE ]
+[s S46 :2 `uc 1 :1 `uc 1 ]
+[n S46 . . GO_DONE ]
+[u S41 `S42 1 `S43 1 `S44 1 `S45 1 `S46 1 ]
+[n S41 . . . . . . ]
+"585 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _ADCON0bits `VS41  1 e@31 ]
+"594 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _OPTION_REG `Vuc  1 e@129 ]
+"596 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _PSA `Vb  1 e@1035 ]
+"597 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _T0SE `Vb  1 e@1036 ]
+"598 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _T0CS `Vb  1 e@1037 ]
+"599 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _INTEDG `Vb  1 e@1038 ]
+"600 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _nRBPU `Vb  1 e@1039 ]
+"601 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _PS0 `Vb  1 e@1032 ]
+"602 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _PS1 `Vb  1 e@1033 ]
+"603 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _PS2 `Vb  1 e@1034 ]
+[s S48 :3 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S48 . PS PSA T0SE T0CS INTEDG nRBPU ]
+[s S49 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S49 . PS0 PS1 PS2 ]
+[u S47 `S48 1 `S49 1 ]
+[n S47 . . . ]
+"619 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _OPTION_REGbits `VS47  1 e@129 ]
+"623 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _TRISA `Vuc  1 e@133 ]
+"625 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _TRISA0 `Vb  1 e@1064 ]
+"626 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _TRISA1 `Vb  1 e@1065 ]
+"627 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _TRISA2 `Vb  1 e@1066 ]
+"628 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _TRISA3 `Vb  1 e@1067 ]
+"629 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _TRISA4 `Vb  1 e@1068 ]
+"630 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _TRISA5 `Vb  1 e@1069 ]
+[s S51 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S51 . TRISA0 TRISA1 TRISA2 TRISA3 TRISA4 TRISA5 ]
+[u S50 `S51 1 ]
+[n S50 . . ]
+"641 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _TRISAbits `VS50  1 e@133 ]
+"645 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _TRISB `Vuc  1 e@134 ]
+"647 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _TRISB0 `Vb  1 e@1072 ]
+"648 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _TRISB1 `Vb  1 e@1073 ]
+"649 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _TRISB2 `Vb  1 e@1074 ]
+"650 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _TRISB3 `Vb  1 e@1075 ]
+"651 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _TRISB4 `Vb  1 e@1076 ]
+"652 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _TRISB5 `Vb  1 e@1077 ]
+"653 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _TRISB6 `Vb  1 e@1078 ]
+"654 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _TRISB7 `Vb  1 e@1079 ]
+[s S53 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S53 . TRISB0 TRISB1 TRISB2 TRISB3 TRISB4 TRISB5 TRISB6 TRISB7 ]
+[u S52 `S53 1 ]
+[n S52 . . ]
+"667 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _TRISBbits `VS52  1 e@134 ]
+"671 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _TRISC `Vuc  1 e@135 ]
+"673 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _TRISC0 `Vb  1 e@1080 ]
+"674 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _TRISC1 `Vb  1 e@1081 ]
+"675 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _TRISC2 `Vb  1 e@1082 ]
+"676 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _TRISC3 `Vb  1 e@1083 ]
+"677 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _TRISC4 `Vb  1 e@1084 ]
+"678 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _TRISC5 `Vb  1 e@1085 ]
+"679 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _TRISC6 `Vb  1 e@1086 ]
+"680 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _TRISC7 `Vb  1 e@1087 ]
+[s S55 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S55 . TRISC0 TRISC1 TRISC2 TRISC3 TRISC4 TRISC5 TRISC6 TRISC7 ]
+[u S54 `S55 1 ]
+[n S54 . . ]
+"693 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _TRISCbits `VS54  1 e@135 ]
+"697 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _PIE1 `Vuc  1 e@140 ]
+"699 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _TMR1IE `Vb  1 e@1120 ]
+"700 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _TMR2IE `Vb  1 e@1121 ]
+"701 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _CCP1IE `Vb  1 e@1122 ]
+"702 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _SSPIE `Vb  1 e@1123 ]
+"703 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _TXIE `Vb  1 e@1124 ]
+"704 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _RCIE `Vb  1 e@1125 ]
+"705 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _ADIE `Vb  1 e@1126 ]
+[s S57 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S57 . TMR1IE TMR2IE CCP1IE SSPIE TXIE RCIE ADIE ]
+[u S56 `S57 1 ]
+[n S56 . . ]
+"717 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _PIE1bits `VS56  1 e@140 ]
+"721 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _PIE2 `Vuc  1 e@141 ]
+"723 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _CCP2IE `Vb  1 e@1128 ]
+"724 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _BCLIE `Vb  1 e@1131 ]
+"725 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _EEIE `Vb  1 e@1132 ]
+"726 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _CMIE `Vb  1 e@1134 ]
+[s S59 :1 `uc 1 :2 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S59 . CCP2IE . BCLIE EEIE . CMIE ]
+[u S58 `S59 1 ]
+[n S58 . . ]
+"737 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _PIE2bits `VS58  1 e@141 ]
+"741 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _PCON `Vuc  1 e@142 ]
+"743 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _nBOR `Vb  1 e@1136 ]
+"744 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _nPOR `Vb  1 e@1137 ]
+"745 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _nBO `Vb  1 e@1136 ]
+[s S61 :1 `uc 1 :1 `uc 1 ]
+[n S61 . nBOR nPOR ]
+[s S62 :1 `uc 1 ]
+[n S62 . nBO ]
+[u S60 `S61 1 `S62 1 ]
+[n S60 . . . ]
+"755 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _PCONbits `VS60  1 e@142 ]
+"759 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _SSPCON2 `Vuc  1 e@145 ]
+"761 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _SEN `Vb  1 e@1160 ]
+"762 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _RSEN `Vb  1 e@1161 ]
+"763 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _PEN `Vb  1 e@1162 ]
+"764 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _RCEN `Vb  1 e@1163 ]
+"765 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _ACKEN `Vb  1 e@1164 ]
+"766 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _ACKDT `Vb  1 e@1165 ]
+"767 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _ACKSTAT `Vb  1 e@1166 ]
+"768 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _GCEN `Vb  1 e@1167 ]
+[s S64 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S64 . SEN RSEN PEN RCEN ACKEN ACKDT ACKSTAT GCEN ]
+[u S63 `S64 1 ]
+[n S63 . . ]
+"781 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _SSPCON2bits `VS63  1 e@145 ]
+"785 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _PR2 `Vuc  1 e@146 ]
+"789 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _SSPADD `Vuc  1 e@147 ]
+"793 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _SSPSTAT `Vuc  1 e@148 ]
+"795 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _BF `Vb  1 e@1184 ]
+"796 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _UA `Vb  1 e@1185 ]
+"797 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _R_nW `Vb  1 e@1186 ]
+"798 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _S `Vb  1 e@1187 ]
+"799 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _P `Vb  1 e@1188 ]
+"800 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _D_nA `Vb  1 e@1189 ]
+"801 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _CKE `Vb  1 e@1190 ]
+"802 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _SMP `Vb  1 e@1191 ]
+"803 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _R `Vb  1 e@1186 ]
+"804 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _D `Vb  1 e@1189 ]
+"805 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _I2C_READ `Vb  1 e@1186 ]
+"806 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _I2C_START `Vb  1 e@1187 ]
+"807 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _I2C_STOP `Vb  1 e@1188 ]
+"808 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _I2C_DATA `Vb  1 e@1189 ]
+"809 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _nW `Vb  1 e@1186 ]
+"810 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _nA `Vb  1 e@1189 ]
+"811 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _nWRITE `Vb  1 e@1186 ]
+"812 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _nADDRESS `Vb  1 e@1189 ]
+"813 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _R_W `Vb  1 e@1186 ]
+"814 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _D_A `Vb  1 e@1189 ]
+"815 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _READ_WRITE `Vb  1 e@1186 ]
+"816 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _DATA_ADDRESS `Vb  1 e@1189 ]
+[s S66 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S66 . BF UA R_nW S P D_nA CKE SMP ]
+[s S67 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S67 . . . . . . . . . ]
+[s S68 :2 `uc 1 :1 `uc 1 :2 `uc 1 :1 `uc 1 ]
+[n S68 . . R . D ]
+[s S69 :2 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S69 . . I2C_READ I2C_START I2C_STOP I2C_DATA ]
+[s S70 :2 `uc 1 :1 `uc 1 :2 `uc 1 :1 `uc 1 ]
+[n S70 . . nW . nA ]
+[s S71 :2 `uc 1 :1 `uc 1 :2 `uc 1 :1 `uc 1 ]
+[n S71 . . nWRITE . nADDRESS ]
+[s S72 :2 `uc 1 :1 `uc 1 :2 `uc 1 :1 `uc 1 ]
+[n S72 . . R_W . D_A ]
+[s S73 :2 `uc 1 :1 `uc 1 :2 `uc 1 :1 `uc 1 ]
+[n S73 . . READ_WRITE . DATA_ADDRESS ]
+[u S65 `S66 1 `S67 1 `S68 1 `S69 1 `S70 1 `S71 1 `S72 1 `S73 1 ]
+[n S65 . . . . . . . . . ]
+"876 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _SSPSTATbits `VS65  1 e@148 ]
+"880 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _TXSTA `Vuc  1 e@152 ]
+"882 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _TX9D `Vb  1 e@1216 ]
+"883 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _TRMT `Vb  1 e@1217 ]
+"884 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _BRGH `Vb  1 e@1218 ]
+"885 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _SYNC `Vb  1 e@1220 ]
+"886 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _TXEN `Vb  1 e@1221 ]
+"887 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _TX9 `Vb  1 e@1222 ]
+"888 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _CSRC `Vb  1 e@1223 ]
+"889 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _TXD8 `Vb  1 e@1216 ]
+"890 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _nTX8 `Vb  1 e@1222 ]
+"891 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _TX8_9 `Vb  1 e@1222 ]
+[s S75 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S75 . TX9D TRMT BRGH . SYNC TXEN TX9 CSRC ]
+[s S76 :1 `uc 1 :5 `uc 1 :1 `uc 1 ]
+[n S76 . TXD8 . nTX8 ]
+[s S77 :6 `uc 1 :1 `uc 1 ]
+[n S77 . . TX8_9 ]
+[u S74 `S75 1 `S76 1 `S77 1 ]
+[n S74 . . . . ]
+"913 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _TXSTAbits `VS74  1 e@152 ]
+"917 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _SPBRG `Vuc  1 e@153 ]
+"921 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _CMCON `Vuc  1 e@156 ]
+"923 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _CIS `Vb  1 e@1251 ]
+"924 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _C1INV `Vb  1 e@1252 ]
+"925 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _C2INV `Vb  1 e@1253 ]
+"926 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _C1OUT `Vb  1 e@1254 ]
+"927 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _C2OUT `Vb  1 e@1255 ]
+"928 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _CM0 `Vb  1 e@1248 ]
+"929 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _CM1 `Vb  1 e@1249 ]
+"930 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _CM2 `Vb  1 e@1250 ]
+[s S79 :3 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S79 . CM CIS C1INV C2INV C1OUT C2OUT ]
+[s S80 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S80 . CM0 CM1 CM2 ]
+[u S78 `S79 1 `S80 1 ]
+[n S78 . . . ]
+"946 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _CMCONbits `VS78  1 e@156 ]
+"950 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _CVRCON `Vuc  1 e@157 ]
+"952 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _CVRR `Vb  1 e@1261 ]
+"953 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _CVROE `Vb  1 e@1262 ]
+"954 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _CVREN `Vb  1 e@1263 ]
+"955 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _CVR0 `Vb  1 e@1256 ]
+"956 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _CVR1 `Vb  1 e@1257 ]
+"957 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _CVR2 `Vb  1 e@1258 ]
+"958 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _CVR3 `Vb  1 e@1259 ]
+[s S82 :4 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S82 . CVR . CVRR CVROE CVREN ]
+[s S83 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S83 . CVR0 CVR1 CVR2 CVR3 ]
+[u S81 `S82 1 `S83 1 ]
+[n S81 . . . ]
+"974 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _CVRCONbits `VS81  1 e@157 ]
+"978 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _ADRESL `Vuc  1 e@158 ]
+"982 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _ADCON1 `Vuc  1 e@159 ]
+"984 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _ADCS2 `Vb  1 e@1278 ]
+"985 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _ADFM `Vb  1 e@1279 ]
+"986 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _PCFG0 `Vb  1 e@1272 ]
+"987 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _PCFG1 `Vb  1 e@1273 ]
+"988 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _PCFG2 `Vb  1 e@1274 ]
+"989 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _PCFG3 `Vb  1 e@1275 ]
+[s S85 :4 `uc 1 :2 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S85 . PCFG . ADCS2 ADFM ]
+[s S86 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S86 . PCFG0 PCFG1 PCFG2 PCFG3 ]
+[u S84 `S85 1 `S86 1 ]
+[n S84 . . . ]
+"1004 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _ADCON1bits `VS84  1 e@159 ]
+"1013 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _EEDATA `Vuc  1 e@268 ]
+"1017 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _EEADR `Vuc  1 e@269 ]
+"1021 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _EEDATH `Vuc  1 e@270 ]
+[s S88 :6 `uc 1 ]
+[n S88 . . ]
+[u S87 `S88 1 ]
+[n S87 . . ]
+"1028 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _EEDATHbits `VS87  1 e@270 ]
+"1032 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _EEADRH `Vuc  1 e@271 ]
+[s S90 :5 `uc 1 ]
+[n S90 . . ]
+[u S89 `S90 1 ]
+[n S89 . . ]
+"1039 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _EEADRHbits `VS89  1 e@271 ]
+"1048 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _EECON1 `Vuc  1 e@396 ]
+"1050 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _RD `Vb  1 e@3168 ]
+"1051 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _WR `Vb  1 e@3169 ]
+"1052 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _WREN `Vb  1 e@3170 ]
+"1053 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _WRERR `Vb  1 e@3171 ]
+"1054 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _EEPGD `Vb  1 e@3175 ]
+[s S92 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :3 `uc 1 :1 `uc 1 ]
+[n S92 . RD WR WREN WRERR . EEPGD ]
+[u S91 `S92 1 ]
+[n S91 . . ]
+"1065 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _EECON1bits `VS91  1 e@396 ]
+"1069 C:\Program Files (x86)\HI-TECH Software\PICC\9.83\include\pic16f876a.h
+[v _EECON2 `Vuc  1 e@397 ]
+"40 ../../Source code PR24/PR24.c
+[v _kp `uc  1 e ]
+"41 ../../Source code PR24/PR24.c
+[v _ki `uc  1 e ]
+"42 ../../Source code PR24/PR24.c
+[v _kd `uc  1 e ]
+[p mainexit ]
+"59 ../../Source code PR24/PR24.c
+[v _send_config `(v  0 ef1`uc ]
+"56 ../../Source code PR24/PR24.c
+[v _lcd_clr `(v  0 ef ]
+"57 ../../Source code PR24/PR24.c
+[v _lcd_goto `(v  0 ef1`uc ]
+"60 ../../Source code PR24/PR24.c
+[v _send_string `(v  0 ef1`*Cuc ]
+"49 ../../Source code PR24/PR24.c
+[v _ai_read `(uc  0 ef1`uc ]
+"61 ../../Source code PR24/PR24.c
+[v _send_dec `(v  0 ef2`ul`uc ]
+"54 ../../Source code PR24/PR24.c
+[v _delay `(v  0 ef1`ul ]
+[; ;pic16f876a.h: 82: volatile unsigned char INDF @ 0x000;
+[; ;pic16f876a.h: 86: volatile unsigned char TMR0 @ 0x001;
+[; ;pic16f876a.h: 90: volatile unsigned char PCL @ 0x002;
+[; ;pic16f876a.h: 94: volatile unsigned char STATUS @ 0x003;
+[; ;pic16f876a.h: 96: volatile bit CARRY @ ((unsigned)&STATUS*8)+0;
+[; ;pic16f876a.h: 97: volatile bit DC @ ((unsigned)&STATUS*8)+1;
+[; ;pic16f876a.h: 98: volatile bit ZERO @ ((unsigned)&STATUS*8)+2;
+[; ;pic16f876a.h: 99: volatile bit nPD @ ((unsigned)&STATUS*8)+3;
+[; ;pic16f876a.h: 100: volatile bit nTO @ ((unsigned)&STATUS*8)+4;
+[; ;pic16f876a.h: 101: volatile bit IRP @ ((unsigned)&STATUS*8)+7;
+[; ;pic16f876a.h: 102: volatile bit RP0 @ ((unsigned)&STATUS*8)+5;
+[; ;pic16f876a.h: 103: volatile bit RP1 @ ((unsigned)&STATUS*8)+6;
+[; ;pic16f876a.h: 105: volatile union {
+[; ;pic16f876a.h: 106: struct {
+[; ;pic16f876a.h: 107: unsigned C : 1;
+[; ;pic16f876a.h: 108: unsigned DC : 1;
+[; ;pic16f876a.h: 109: unsigned Z : 1;
+[; ;pic16f876a.h: 110: unsigned nPD : 1;
+[; ;pic16f876a.h: 111: unsigned nTO : 1;
+[; ;pic16f876a.h: 112: unsigned RP : 2;
+[; ;pic16f876a.h: 113: unsigned IRP : 1;
+[; ;pic16f876a.h: 114: };
+[; ;pic16f876a.h: 115: struct {
+[; ;pic16f876a.h: 116: unsigned : 5;
+[; ;pic16f876a.h: 117: unsigned RP0 : 1;
+[; ;pic16f876a.h: 118: unsigned RP1 : 1;
+[; ;pic16f876a.h: 119: };
+[; ;pic16f876a.h: 120: } STATUSbits @ 0x003;
+[; ;pic16f876a.h: 124: volatile unsigned char FSR @ 0x004;
+[; ;pic16f876a.h: 128: volatile unsigned char PORTA @ 0x005;
+[; ;pic16f876a.h: 130: volatile bit RA0 @ ((unsigned)&PORTA*8)+0;
+[; ;pic16f876a.h: 131: volatile bit RA1 @ ((unsigned)&PORTA*8)+1;
+[; ;pic16f876a.h: 132: volatile bit RA2 @ ((unsigned)&PORTA*8)+2;
+[; ;pic16f876a.h: 133: volatile bit RA3 @ ((unsigned)&PORTA*8)+3;
+[; ;pic16f876a.h: 134: volatile bit RA4 @ ((unsigned)&PORTA*8)+4;
+[; ;pic16f876a.h: 135: volatile bit RA5 @ ((unsigned)&PORTA*8)+5;
+[; ;pic16f876a.h: 137: volatile union {
+[; ;pic16f876a.h: 138: struct {
+[; ;pic16f876a.h: 139: unsigned RA0 : 1;
+[; ;pic16f876a.h: 140: unsigned RA1 : 1;
+[; ;pic16f876a.h: 141: unsigned RA2 : 1;
+[; ;pic16f876a.h: 142: unsigned RA3 : 1;
+[; ;pic16f876a.h: 143: unsigned RA4 : 1;
+[; ;pic16f876a.h: 144: unsigned RA5 : 1;
+[; ;pic16f876a.h: 145: };
+[; ;pic16f876a.h: 146: } PORTAbits @ 0x005;
+[; ;pic16f876a.h: 150: volatile unsigned char PORTB @ 0x006;
+[; ;pic16f876a.h: 152: volatile bit RB0 @ ((unsigned)&PORTB*8)+0;
+[; ;pic16f876a.h: 153: volatile bit RB1 @ ((unsigned)&PORTB*8)+1;
+[; ;pic16f876a.h: 154: volatile bit RB2 @ ((unsigned)&PORTB*8)+2;
+[; ;pic16f876a.h: 155: volatile bit RB3 @ ((unsigned)&PORTB*8)+3;
+[; ;pic16f876a.h: 156: volatile bit RB4 @ ((unsigned)&PORTB*8)+4;
+[; ;pic16f876a.h: 157: volatile bit RB5 @ ((unsigned)&PORTB*8)+5;
+[; ;pic16f876a.h: 158: volatile bit RB6 @ ((unsigned)&PORTB*8)+6;
+[; ;pic16f876a.h: 159: volatile bit RB7 @ ((unsigned)&PORTB*8)+7;
+[; ;pic16f876a.h: 161: volatile union {
+[; ;pic16f876a.h: 162: struct {
+[; ;pic16f876a.h: 163: unsigned RB0 : 1;
+[; ;pic16f876a.h: 164: unsigned RB1 : 1;
+[; ;pic16f876a.h: 165: unsigned RB2 : 1;
+[; ;pic16f876a.h: 166: unsigned RB3 : 1;
+[; ;pic16f876a.h: 167: unsigned RB4 : 1;
+[; ;pic16f876a.h: 168: unsigned RB5 : 1;
+[; ;pic16f876a.h: 169: unsigned RB6 : 1;
+[; ;pic16f876a.h: 170: unsigned RB7 : 1;
+[; ;pic16f876a.h: 171: };
+[; ;pic16f876a.h: 172: } PORTBbits @ 0x006;
+[; ;pic16f876a.h: 176: volatile unsigned char PORTC @ 0x007;
+[; ;pic16f876a.h: 178: volatile bit RC0 @ ((unsigned)&PORTC*8)+0;
+[; ;pic16f876a.h: 179: volatile bit RC1 @ ((unsigned)&PORTC*8)+1;
+[; ;pic16f876a.h: 180: volatile bit RC2 @ ((unsigned)&PORTC*8)+2;
+[; ;pic16f876a.h: 181: volatile bit RC3 @ ((unsigned)&PORTC*8)+3;
+[; ;pic16f876a.h: 182: volatile bit RC4 @ ((unsigned)&PORTC*8)+4;
+[; ;pic16f876a.h: 183: volatile bit RC5 @ ((unsigned)&PORTC*8)+5;
+[; ;pic16f876a.h: 184: volatile bit RC6 @ ((unsigned)&PORTC*8)+6;
+[; ;pic16f876a.h: 185: volatile bit RC7 @ ((unsigned)&PORTC*8)+7;
+[; ;pic16f876a.h: 187: volatile union {
+[; ;pic16f876a.h: 188: struct {
+[; ;pic16f876a.h: 189: unsigned RC0 : 1;
+[; ;pic16f876a.h: 190: unsigned RC1 : 1;
+[; ;pic16f876a.h: 191: unsigned RC2 : 1;
+[; ;pic16f876a.h: 192: unsigned RC3 : 1;
+[; ;pic16f876a.h: 193: unsigned RC4 : 1;
+[; ;pic16f876a.h: 194: unsigned RC5 : 1;
+[; ;pic16f876a.h: 195: unsigned RC6 : 1;
+[; ;pic16f876a.h: 196: unsigned RC7 : 1;
+[; ;pic16f876a.h: 197: };
+[; ;pic16f876a.h: 198: } PORTCbits @ 0x007;
+[; ;pic16f876a.h: 202: volatile unsigned char PCLATH @ 0x00A;
+[; ;pic16f876a.h: 205: volatile union {
+[; ;pic16f876a.h: 206: struct {
+[; ;pic16f876a.h: 207: unsigned PCLATH : 5;
+[; ;pic16f876a.h: 208: };
+[; ;pic16f876a.h: 209: } PCLATHbits @ 0x00A;
+[; ;pic16f876a.h: 213: volatile unsigned char INTCON @ 0x00B;
+[; ;pic16f876a.h: 215: volatile bit RBIF @ ((unsigned)&INTCON*8)+0;
+[; ;pic16f876a.h: 216: volatile bit INTF @ ((unsigned)&INTCON*8)+1;
+[; ;pic16f876a.h: 217: volatile bit TMR0IF @ ((unsigned)&INTCON*8)+2;
+[; ;pic16f876a.h: 218: volatile bit RBIE @ ((unsigned)&INTCON*8)+3;
+[; ;pic16f876a.h: 219: volatile bit INTE @ ((unsigned)&INTCON*8)+4;
+[; ;pic16f876a.h: 220: volatile bit TMR0IE @ ((unsigned)&INTCON*8)+5;
+[; ;pic16f876a.h: 221: volatile bit PEIE @ ((unsigned)&INTCON*8)+6;
+[; ;pic16f876a.h: 222: volatile bit GIE @ ((unsigned)&INTCON*8)+7;
+[; ;pic16f876a.h: 223: volatile bit T0IF @ ((unsigned)&INTCON*8)+2;
+[; ;pic16f876a.h: 224: volatile bit T0IE @ ((unsigned)&INTCON*8)+5;
+[; ;pic16f876a.h: 226: volatile union {
+[; ;pic16f876a.h: 227: struct {
+[; ;pic16f876a.h: 228: unsigned RBIF : 1;
+[; ;pic16f876a.h: 229: unsigned INTF : 1;
+[; ;pic16f876a.h: 230: unsigned TMR0IF : 1;
+[; ;pic16f876a.h: 231: unsigned RBIE : 1;
+[; ;pic16f876a.h: 232: unsigned INTE : 1;
+[; ;pic16f876a.h: 233: unsigned TMR0IE : 1;
+[; ;pic16f876a.h: 234: unsigned PEIE : 1;
+[; ;pic16f876a.h: 235: unsigned GIE : 1;
+[; ;pic16f876a.h: 236: };
+[; ;pic16f876a.h: 237: struct {
+[; ;pic16f876a.h: 238: unsigned : 2;
+[; ;pic16f876a.h: 239: unsigned T0IF : 1;
+[; ;pic16f876a.h: 240: unsigned : 2;
+[; ;pic16f876a.h: 241: unsigned T0IE : 1;
+[; ;pic16f876a.h: 242: };
+[; ;pic16f876a.h: 243: } INTCONbits @ 0x00B;
+[; ;pic16f876a.h: 247: volatile unsigned char PIR1 @ 0x00C;
+[; ;pic16f876a.h: 249: volatile bit TMR1IF @ ((unsigned)&PIR1*8)+0;
+[; ;pic16f876a.h: 250: volatile bit TMR2IF @ ((unsigned)&PIR1*8)+1;
+[; ;pic16f876a.h: 251: volatile bit CCP1IF @ ((unsigned)&PIR1*8)+2;
+[; ;pic16f876a.h: 252: volatile bit SSPIF @ ((unsigned)&PIR1*8)+3;
+[; ;pic16f876a.h: 253: volatile bit TXIF @ ((unsigned)&PIR1*8)+4;
+[; ;pic16f876a.h: 254: volatile bit RCIF @ ((unsigned)&PIR1*8)+5;
+[; ;pic16f876a.h: 255: volatile bit ADIF @ ((unsigned)&PIR1*8)+6;
+[; ;pic16f876a.h: 257: volatile union {
+[; ;pic16f876a.h: 258: struct {
+[; ;pic16f876a.h: 259: unsigned TMR1IF : 1;
+[; ;pic16f876a.h: 260: unsigned TMR2IF : 1;
+[; ;pic16f876a.h: 261: unsigned CCP1IF : 1;
+[; ;pic16f876a.h: 262: unsigned SSPIF : 1;
+[; ;pic16f876a.h: 263: unsigned TXIF : 1;
+[; ;pic16f876a.h: 264: unsigned RCIF : 1;
+[; ;pic16f876a.h: 265: unsigned ADIF : 1;
+[; ;pic16f876a.h: 266: };
+[; ;pic16f876a.h: 267: struct {
+[; ;pic16f876a.h: 268: unsigned : 1;
+[; ;pic16f876a.h: 269: unsigned : 1;
+[; ;pic16f876a.h: 270: unsigned : 1;
+[; ;pic16f876a.h: 271: unsigned : 1;
+[; ;pic16f876a.h: 272: unsigned : 2;
+[; ;pic16f876a.h: 273: unsigned : 1;
+[; ;pic16f876a.h: 274: };
+[; ;pic16f876a.h: 275: } PIR1bits @ 0x00C;
+[; ;pic16f876a.h: 279: volatile unsigned char PIR2 @ 0x00D;
+[; ;pic16f876a.h: 281: volatile bit CCP2IF @ ((unsigned)&PIR2*8)+0;
+[; ;pic16f876a.h: 282: volatile bit BCLIF @ ((unsigned)&PIR2*8)+3;
+[; ;pic16f876a.h: 283: volatile bit EEIF @ ((unsigned)&PIR2*8)+4;
+[; ;pic16f876a.h: 284: volatile bit CMIF @ ((unsigned)&PIR2*8)+6;
+[; ;pic16f876a.h: 286: volatile union {
+[; ;pic16f876a.h: 287: struct {
+[; ;pic16f876a.h: 288: unsigned CCP2IF : 1;
+[; ;pic16f876a.h: 289: unsigned : 2;
+[; ;pic16f876a.h: 290: unsigned BCLIF : 1;
+[; ;pic16f876a.h: 291: unsigned EEIF : 1;
+[; ;pic16f876a.h: 292: unsigned : 1;
+[; ;pic16f876a.h: 293: unsigned CMIF : 1;
+[; ;pic16f876a.h: 294: };
+[; ;pic16f876a.h: 295: } PIR2bits @ 0x00D;
+[; ;pic16f876a.h: 300: volatile unsigned char TMR1L @ 0x00E;
+[; ;pic16f876a.h: 304: volatile unsigned char TMR1H @ 0x00F;
+[; ;pic16f876a.h: 308: volatile unsigned int TMR1 @ 0x00E;
+[; ;pic16f876a.h: 311: volatile unsigned char T1CON @ 0x010;
+[; ;pic16f876a.h: 313: volatile bit TMR1ON @ ((unsigned)&T1CON*8)+0;
+[; ;pic16f876a.h: 314: volatile bit TMR1CS @ ((unsigned)&T1CON*8)+1;
+[; ;pic16f876a.h: 315: volatile bit nT1SYNC @ ((unsigned)&T1CON*8)+2;
+[; ;pic16f876a.h: 316: volatile bit T1OSCEN @ ((unsigned)&T1CON*8)+3;
+[; ;pic16f876a.h: 317: volatile bit T1SYNC @ ((unsigned)&T1CON*8)+2;
+[; ;pic16f876a.h: 318: volatile bit T1CKPS0 @ ((unsigned)&T1CON*8)+4;
+[; ;pic16f876a.h: 319: volatile bit T1CKPS1 @ ((unsigned)&T1CON*8)+5;
+[; ;pic16f876a.h: 320: volatile bit T1INSYNC @ ((unsigned)&T1CON*8)+2;
+[; ;pic16f876a.h: 322: volatile union {
+[; ;pic16f876a.h: 323: struct {
+[; ;pic16f876a.h: 324: unsigned TMR1ON : 1;
+[; ;pic16f876a.h: 325: unsigned TMR1CS : 1;
+[; ;pic16f876a.h: 326: unsigned nT1SYNC : 1;
+[; ;pic16f876a.h: 327: unsigned T1OSCEN : 1;
+[; ;pic16f876a.h: 328: unsigned T1CKPS : 2;
+[; ;pic16f876a.h: 329: };
+[; ;pic16f876a.h: 330: struct {
+[; ;pic16f876a.h: 331: unsigned : 2;
+[; ;pic16f876a.h: 332: unsigned T1SYNC : 1;
+[; ;pic16f876a.h: 333: unsigned : 1;
+[; ;pic16f876a.h: 334: unsigned T1CKPS0 : 1;
+[; ;pic16f876a.h: 335: unsigned T1CKPS1 : 1;
+[; ;pic16f876a.h: 336: };
+[; ;pic16f876a.h: 337: struct {
+[; ;pic16f876a.h: 338: unsigned : 2;
+[; ;pic16f876a.h: 339: unsigned T1INSYNC : 1;
+[; ;pic16f876a.h: 340: };
+[; ;pic16f876a.h: 341: } T1CONbits @ 0x010;
+[; ;pic16f876a.h: 345: volatile unsigned char TMR2 @ 0x011;
+[; ;pic16f876a.h: 349: volatile unsigned char T2CON @ 0x012;
+[; ;pic16f876a.h: 351: volatile bit TMR2ON @ ((unsigned)&T2CON*8)+2;
+[; ;pic16f876a.h: 352: volatile bit T2CKPS0 @ ((unsigned)&T2CON*8)+0;
+[; ;pic16f876a.h: 353: volatile bit T2CKPS1 @ ((unsigned)&T2CON*8)+1;
+[; ;pic16f876a.h: 354: volatile bit TOUTPS0 @ ((unsigned)&T2CON*8)+3;
+[; ;pic16f876a.h: 355: volatile bit TOUTPS1 @ ((unsigned)&T2CON*8)+4;
+[; ;pic16f876a.h: 356: volatile bit TOUTPS2 @ ((unsigned)&T2CON*8)+5;
+[; ;pic16f876a.h: 357: volatile bit TOUTPS3 @ ((unsigned)&T2CON*8)+6;
+[; ;pic16f876a.h: 359: volatile union {
+[; ;pic16f876a.h: 360: struct {
+[; ;pic16f876a.h: 361: unsigned T2CKPS : 2;
+[; ;pic16f876a.h: 362: unsigned TMR2ON : 1;
+[; ;pic16f876a.h: 363: unsigned TOUTPS : 4;
+[; ;pic16f876a.h: 364: };
+[; ;pic16f876a.h: 365: struct {
+[; ;pic16f876a.h: 366: unsigned T2CKPS0 : 1;
+[; ;pic16f876a.h: 367: unsigned T2CKPS1 : 1;
+[; ;pic16f876a.h: 368: unsigned : 1;
+[; ;pic16f876a.h: 369: unsigned TOUTPS0 : 1;
+[; ;pic16f876a.h: 370: unsigned TOUTPS1 : 1;
+[; ;pic16f876a.h: 371: unsigned TOUTPS2 : 1;
+[; ;pic16f876a.h: 372: unsigned TOUTPS3 : 1;
+[; ;pic16f876a.h: 373: };
+[; ;pic16f876a.h: 374: } T2CONbits @ 0x012;
+[; ;pic16f876a.h: 378: volatile unsigned char SSPBUF @ 0x013;
+[; ;pic16f876a.h: 382: volatile unsigned char SSPCON @ 0x014;
+[; ;pic16f876a.h: 384: volatile bit CKP @ ((unsigned)&SSPCON*8)+4;
+[; ;pic16f876a.h: 385: volatile bit SSPEN @ ((unsigned)&SSPCON*8)+5;
+[; ;pic16f876a.h: 386: volatile bit SSPOV @ ((unsigned)&SSPCON*8)+6;
+[; ;pic16f876a.h: 387: volatile bit WCOL @ ((unsigned)&SSPCON*8)+7;
+[; ;pic16f876a.h: 388: volatile bit SSPM0 @ ((unsigned)&SSPCON*8)+0;
+[; ;pic16f876a.h: 389: volatile bit SSPM1 @ ((unsigned)&SSPCON*8)+1;
+[; ;pic16f876a.h: 390: volatile bit SSPM2 @ ((unsigned)&SSPCON*8)+2;
+[; ;pic16f876a.h: 391: volatile bit SSPM3 @ ((unsigned)&SSPCON*8)+3;
+[; ;pic16f876a.h: 393: volatile union {
+[; ;pic16f876a.h: 394: struct {
+[; ;pic16f876a.h: 395: unsigned SSPM : 4;
+[; ;pic16f876a.h: 396: unsigned CKP : 1;
+[; ;pic16f876a.h: 397: unsigned SSPEN : 1;
+[; ;pic16f876a.h: 398: unsigned SSPOV : 1;
+[; ;pic16f876a.h: 399: unsigned WCOL : 1;
+[; ;pic16f876a.h: 400: };
+[; ;pic16f876a.h: 401: struct {
+[; ;pic16f876a.h: 402: unsigned SSPM0 : 1;
+[; ;pic16f876a.h: 403: unsigned SSPM1 : 1;
+[; ;pic16f876a.h: 404: unsigned SSPM2 : 1;
+[; ;pic16f876a.h: 405: unsigned SSPM3 : 1;
+[; ;pic16f876a.h: 406: };
+[; ;pic16f876a.h: 407: } SSPCONbits @ 0x014;
+[; ;pic16f876a.h: 412: volatile unsigned char CCPR1L @ 0x015;
+[; ;pic16f876a.h: 416: volatile unsigned char CCPR1H @ 0x016;
+[; ;pic16f876a.h: 420: volatile unsigned int CCPR1 @ 0x015;
+[; ;pic16f876a.h: 423: volatile unsigned char CCP1CON @ 0x017;
+[; ;pic16f876a.h: 425: volatile bit CCP1Y @ ((unsigned)&CCP1CON*8)+4;
+[; ;pic16f876a.h: 426: volatile bit CCP1X @ ((unsigned)&CCP1CON*8)+5;
+[; ;pic16f876a.h: 427: volatile bit CCP1M0 @ ((unsigned)&CCP1CON*8)+0;
+[; ;pic16f876a.h: 428: volatile bit CCP1M1 @ ((unsigned)&CCP1CON*8)+1;
+[; ;pic16f876a.h: 429: volatile bit CCP1M2 @ ((unsigned)&CCP1CON*8)+2;
+[; ;pic16f876a.h: 430: volatile bit CCP1M3 @ ((unsigned)&CCP1CON*8)+3;
+[; ;pic16f876a.h: 432: volatile union {
+[; ;pic16f876a.h: 433: struct {
+[; ;pic16f876a.h: 434: unsigned CCP1M : 4;
+[; ;pic16f876a.h: 435: unsigned CCP1Y : 1;
+[; ;pic16f876a.h: 436: unsigned CCP1X : 1;
+[; ;pic16f876a.h: 437: };
+[; ;pic16f876a.h: 438: struct {
+[; ;pic16f876a.h: 439: unsigned CCP1M0 : 1;
+[; ;pic16f876a.h: 440: unsigned CCP1M1 : 1;
+[; ;pic16f876a.h: 441: unsigned CCP1M2 : 1;
+[; ;pic16f876a.h: 442: unsigned CCP1M3 : 1;
+[; ;pic16f876a.h: 443: };
+[; ;pic16f876a.h: 444: } CCP1CONbits @ 0x017;
+[; ;pic16f876a.h: 448: volatile unsigned char RCSTA @ 0x018;
+[; ;pic16f876a.h: 450: volatile bit RX9D @ ((unsigned)&RCSTA*8)+0;
+[; ;pic16f876a.h: 451: volatile bit OERR @ ((unsigned)&RCSTA*8)+1;
+[; ;pic16f876a.h: 452: volatile bit FERR @ ((unsigned)&RCSTA*8)+2;
+[; ;pic16f876a.h: 453: volatile bit ADDEN @ ((unsigned)&RCSTA*8)+3;
+[; ;pic16f876a.h: 454: volatile bit CREN @ ((unsigned)&RCSTA*8)+4;
+[; ;pic16f876a.h: 455: volatile bit SREN @ ((unsigned)&RCSTA*8)+5;
+[; ;pic16f876a.h: 456: volatile bit RX9 @ ((unsigned)&RCSTA*8)+6;
+[; ;pic16f876a.h: 457: volatile bit SPEN @ ((unsigned)&RCSTA*8)+7;
+[; ;pic16f876a.h: 458: volatile bit RCD8 @ ((unsigned)&RCSTA*8)+0;
+[; ;pic16f876a.h: 459: volatile bit RC9 @ ((unsigned)&RCSTA*8)+6;
+[; ;pic16f876a.h: 460: volatile bit nRC8 @ ((unsigned)&RCSTA*8)+6;
+[; ;pic16f876a.h: 461: volatile bit RC8_9 @ ((unsigned)&RCSTA*8)+6;
+[; ;pic16f876a.h: 463: volatile union {
+[; ;pic16f876a.h: 464: struct {
+[; ;pic16f876a.h: 465: unsigned RX9D : 1;
+[; ;pic16f876a.h: 466: unsigned OERR : 1;
+[; ;pic16f876a.h: 467: unsigned FERR : 1;
+[; ;pic16f876a.h: 468: unsigned ADDEN : 1;
+[; ;pic16f876a.h: 469: unsigned CREN : 1;
+[; ;pic16f876a.h: 470: unsigned SREN : 1;
+[; ;pic16f876a.h: 471: unsigned RX9 : 1;
+[; ;pic16f876a.h: 472: unsigned SPEN : 1;
+[; ;pic16f876a.h: 473: };
+[; ;pic16f876a.h: 474: struct {
+[; ;pic16f876a.h: 475: unsigned RCD8 : 1;
+[; ;pic16f876a.h: 476: unsigned : 5;
+[; ;pic16f876a.h: 477: unsigned RC9 : 1;
+[; ;pic16f876a.h: 478: };
+[; ;pic16f876a.h: 479: struct {
+[; ;pic16f876a.h: 480: unsigned : 6;
+[; ;pic16f876a.h: 481: unsigned nRC8 : 1;
+[; ;pic16f876a.h: 482: };
+[; ;pic16f876a.h: 483: struct {
+[; ;pic16f876a.h: 484: unsigned : 6;
+[; ;pic16f876a.h: 485: unsigned RC8_9 : 1;
+[; ;pic16f876a.h: 486: };
+[; ;pic16f876a.h: 487: } RCSTAbits @ 0x018;
+[; ;pic16f876a.h: 491: volatile unsigned char TXREG @ 0x019;
+[; ;pic16f876a.h: 495: volatile unsigned char RCREG @ 0x01A;
+[; ;pic16f876a.h: 500: volatile unsigned char CCPR2L @ 0x01B;
+[; ;pic16f876a.h: 504: volatile unsigned char CCPR2H @ 0x01C;
+[; ;pic16f876a.h: 508: volatile unsigned int CCPR2 @ 0x01B;
+[; ;pic16f876a.h: 511: volatile unsigned char CCP2CON @ 0x01D;
+[; ;pic16f876a.h: 513: volatile bit CCP2Y @ ((unsigned)&CCP2CON*8)+4;
+[; ;pic16f876a.h: 514: volatile bit CCP2X @ ((unsigned)&CCP2CON*8)+5;
+[; ;pic16f876a.h: 515: volatile bit CCP2M0 @ ((unsigned)&CCP2CON*8)+0;
+[; ;pic16f876a.h: 516: volatile bit CCP2M1 @ ((unsigned)&CCP2CON*8)+1;
+[; ;pic16f876a.h: 517: volatile bit CCP2M2 @ ((unsigned)&CCP2CON*8)+2;
+[; ;pic16f876a.h: 518: volatile bit CCP2M3 @ ((unsigned)&CCP2CON*8)+3;
+[; ;pic16f876a.h: 520: volatile union {
+[; ;pic16f876a.h: 521: struct {
+[; ;pic16f876a.h: 522: unsigned CCP2M : 4;
+[; ;pic16f876a.h: 523: unsigned CCP2Y : 1;
+[; ;pic16f876a.h: 524: unsigned CCP2X : 1;
+[; ;pic16f876a.h: 525: };
+[; ;pic16f876a.h: 526: struct {
+[; ;pic16f876a.h: 527: unsigned CCP2M0 : 1;
+[; ;pic16f876a.h: 528: unsigned CCP2M1 : 1;
+[; ;pic16f876a.h: 529: unsigned CCP2M2 : 1;
+[; ;pic16f876a.h: 530: unsigned CCP2M3 : 1;
+[; ;pic16f876a.h: 531: };
+[; ;pic16f876a.h: 532: } CCP2CONbits @ 0x01D;
+[; ;pic16f876a.h: 536: volatile unsigned char ADRESH @ 0x01E;
+[; ;pic16f876a.h: 540: volatile unsigned char ADCON0 @ 0x01F;
+[; ;pic16f876a.h: 542: volatile bit ADON @ ((unsigned)&ADCON0*8)+0;
+[; ;pic16f876a.h: 543: volatile bit GO_nDONE @ ((unsigned)&ADCON0*8)+2;
+[; ;pic16f876a.h: 544: volatile bit GO @ ((unsigned)&ADCON0*8)+2;
+[; ;pic16f876a.h: 545: volatile bit CHS0 @ ((unsigned)&ADCON0*8)+3;
+[; ;pic16f876a.h: 546: volatile bit CHS1 @ ((unsigned)&ADCON0*8)+4;
+[; ;pic16f876a.h: 547: volatile bit CHS2 @ ((unsigned)&ADCON0*8)+5;
+[; ;pic16f876a.h: 548: volatile bit ADCS0 @ ((unsigned)&ADCON0*8)+6;
+[; ;pic16f876a.h: 549: volatile bit ADCS1 @ ((unsigned)&ADCON0*8)+7;
+[; ;pic16f876a.h: 550: volatile bit nDONE @ ((unsigned)&ADCON0*8)+2;
+[; ;pic16f876a.h: 551: volatile bit GO_DONE @ ((unsigned)&ADCON0*8)+2;
+[; ;pic16f876a.h: 553: volatile union {
+[; ;pic16f876a.h: 554: struct {
+[; ;pic16f876a.h: 555: unsigned ADON : 1;
+[; ;pic16f876a.h: 556: unsigned : 1;
+[; ;pic16f876a.h: 557: unsigned GO_nDONE : 1;
+[; ;pic16f876a.h: 558: unsigned CHS : 3;
+[; ;pic16f876a.h: 559: unsigned ADCS : 2;
+[; ;pic16f876a.h: 560: };
+[; ;pic16f876a.h: 561: struct {
+[; ;pic16f876a.h: 562: unsigned : 1;
+[; ;pic16f876a.h: 563: unsigned : 1;
+[; ;pic16f876a.h: 564: unsigned : 1;
+[; ;pic16f876a.h: 565: unsigned : 3;
+[; ;pic16f876a.h: 566: unsigned : 2;
+[; ;pic16f876a.h: 567: };
+[; ;pic16f876a.h: 568: struct {
+[; ;pic16f876a.h: 569: unsigned : 2;
+[; ;pic16f876a.h: 570: unsigned GO : 1;
+[; ;pic16f876a.h: 571: unsigned CHS0 : 1;
+[; ;pic16f876a.h: 572: unsigned CHS1 : 1;
+[; ;pic16f876a.h: 573: unsigned CHS2 : 1;
+[; ;pic16f876a.h: 574: unsigned ADCS0 : 1;
+[; ;pic16f876a.h: 575: unsigned ADCS1 : 1;
+[; ;pic16f876a.h: 576: };
+[; ;pic16f876a.h: 577: struct {
+[; ;pic16f876a.h: 578: unsigned : 2;
+[; ;pic16f876a.h: 579: unsigned nDONE : 1;
+[; ;pic16f876a.h: 580: };
+[; ;pic16f876a.h: 581: struct {
+[; ;pic16f876a.h: 582: unsigned : 2;
+[; ;pic16f876a.h: 583: unsigned GO_DONE : 1;
+[; ;pic16f876a.h: 584: };
+[; ;pic16f876a.h: 585: } ADCON0bits @ 0x01F;
+[; ;pic16f876a.h: 594: volatile unsigned char OPTION_REG @ 0x081;
+[; ;pic16f876a.h: 596: volatile bit PSA @ ((unsigned)&OPTION_REG*8)+3;
+[; ;pic16f876a.h: 597: volatile bit T0SE @ ((unsigned)&OPTION_REG*8)+4;
+[; ;pic16f876a.h: 598: volatile bit T0CS @ ((unsigned)&OPTION_REG*8)+5;
+[; ;pic16f876a.h: 599: volatile bit INTEDG @ ((unsigned)&OPTION_REG*8)+6;
+[; ;pic16f876a.h: 600: volatile bit nRBPU @ ((unsigned)&OPTION_REG*8)+7;
+[; ;pic16f876a.h: 601: volatile bit PS0 @ ((unsigned)&OPTION_REG*8)+0;
+[; ;pic16f876a.h: 602: volatile bit PS1 @ ((unsigned)&OPTION_REG*8)+1;
+[; ;pic16f876a.h: 603: volatile bit PS2 @ ((unsigned)&OPTION_REG*8)+2;
+[; ;pic16f876a.h: 605: volatile union {
+[; ;pic16f876a.h: 606: struct {
+[; ;pic16f876a.h: 607: unsigned PS : 3;
+[; ;pic16f876a.h: 608: unsigned PSA : 1;
+[; ;pic16f876a.h: 609: unsigned T0SE : 1;
+[; ;pic16f876a.h: 610: unsigned T0CS : 1;
+[; ;pic16f876a.h: 611: unsigned INTEDG : 1;
+[; ;pic16f876a.h: 612: unsigned nRBPU : 1;
+[; ;pic16f876a.h: 613: };
+[; ;pic16f876a.h: 614: struct {
+[; ;pic16f876a.h: 615: unsigned PS0 : 1;
+[; ;pic16f876a.h: 616: unsigned PS1 : 1;
+[; ;pic16f876a.h: 617: unsigned PS2 : 1;
+[; ;pic16f876a.h: 618: };
+[; ;pic16f876a.h: 619: } OPTION_REGbits @ 0x081;
+[; ;pic16f876a.h: 623: volatile unsigned char TRISA @ 0x085;
+[; ;pic16f876a.h: 625: volatile bit TRISA0 @ ((unsigned)&TRISA*8)+0;
+[; ;pic16f876a.h: 626: volatile bit TRISA1 @ ((unsigned)&TRISA*8)+1;
+[; ;pic16f876a.h: 627: volatile bit TRISA2 @ ((unsigned)&TRISA*8)+2;
+[; ;pic16f876a.h: 628: volatile bit TRISA3 @ ((unsigned)&TRISA*8)+3;
+[; ;pic16f876a.h: 629: volatile bit TRISA4 @ ((unsigned)&TRISA*8)+4;
+[; ;pic16f876a.h: 630: volatile bit TRISA5 @ ((unsigned)&TRISA*8)+5;
+[; ;pic16f876a.h: 632: volatile union {
+[; ;pic16f876a.h: 633: struct {
+[; ;pic16f876a.h: 634: unsigned TRISA0 : 1;
+[; ;pic16f876a.h: 635: unsigned TRISA1 : 1;
+[; ;pic16f876a.h: 636: unsigned TRISA2 : 1;
+[; ;pic16f876a.h: 637: unsigned TRISA3 : 1;
+[; ;pic16f876a.h: 638: unsigned TRISA4 : 1;
+[; ;pic16f876a.h: 639: unsigned TRISA5 : 1;
+[; ;pic16f876a.h: 640: };
+[; ;pic16f876a.h: 641: } TRISAbits @ 0x085;
+[; ;pic16f876a.h: 645: volatile unsigned char TRISB @ 0x086;
+[; ;pic16f876a.h: 647: volatile bit TRISB0 @ ((unsigned)&TRISB*8)+0;
+[; ;pic16f876a.h: 648: volatile bit TRISB1 @ ((unsigned)&TRISB*8)+1;
+[; ;pic16f876a.h: 649: volatile bit TRISB2 @ ((unsigned)&TRISB*8)+2;
+[; ;pic16f876a.h: 650: volatile bit TRISB3 @ ((unsigned)&TRISB*8)+3;
+[; ;pic16f876a.h: 651: volatile bit TRISB4 @ ((unsigned)&TRISB*8)+4;
+[; ;pic16f876a.h: 652: volatile bit TRISB5 @ ((unsigned)&TRISB*8)+5;
+[; ;pic16f876a.h: 653: volatile bit TRISB6 @ ((unsigned)&TRISB*8)+6;
+[; ;pic16f876a.h: 654: volatile bit TRISB7 @ ((unsigned)&TRISB*8)+7;
+[; ;pic16f876a.h: 656: volatile union {
+[; ;pic16f876a.h: 657: struct {
+[; ;pic16f876a.h: 658: unsigned TRISB0 : 1;
+[; ;pic16f876a.h: 659: unsigned TRISB1 : 1;
+[; ;pic16f876a.h: 660: unsigned TRISB2 : 1;
+[; ;pic16f876a.h: 661: unsigned TRISB3 : 1;
+[; ;pic16f876a.h: 662: unsigned TRISB4 : 1;
+[; ;pic16f876a.h: 663: unsigned TRISB5 : 1;
+[; ;pic16f876a.h: 664: unsigned TRISB6 : 1;
+[; ;pic16f876a.h: 665: unsigned TRISB7 : 1;
+[; ;pic16f876a.h: 666: };
+[; ;pic16f876a.h: 667: } TRISBbits @ 0x086;
+[; ;pic16f876a.h: 671: volatile unsigned char TRISC @ 0x087;
+[; ;pic16f876a.h: 673: volatile bit TRISC0 @ ((unsigned)&TRISC*8)+0;
+[; ;pic16f876a.h: 674: volatile bit TRISC1 @ ((unsigned)&TRISC*8)+1;
+[; ;pic16f876a.h: 675: volatile bit TRISC2 @ ((unsigned)&TRISC*8)+2;
+[; ;pic16f876a.h: 676: volatile bit TRISC3 @ ((unsigned)&TRISC*8)+3;
+[; ;pic16f876a.h: 677: volatile bit TRISC4 @ ((unsigned)&TRISC*8)+4;
+[; ;pic16f876a.h: 678: volatile bit TRISC5 @ ((unsigned)&TRISC*8)+5;
+[; ;pic16f876a.h: 679: volatile bit TRISC6 @ ((unsigned)&TRISC*8)+6;
+[; ;pic16f876a.h: 680: volatile bit TRISC7 @ ((unsigned)&TRISC*8)+7;
+[; ;pic16f876a.h: 682: volatile union {
+[; ;pic16f876a.h: 683: struct {
+[; ;pic16f876a.h: 684: unsigned TRISC0 : 1;
+[; ;pic16f876a.h: 685: unsigned TRISC1 : 1;
+[; ;pic16f876a.h: 686: unsigned TRISC2 : 1;
+[; ;pic16f876a.h: 687: unsigned TRISC3 : 1;
+[; ;pic16f876a.h: 688: unsigned TRISC4 : 1;
+[; ;pic16f876a.h: 689: unsigned TRISC5 : 1;
+[; ;pic16f876a.h: 690: unsigned TRISC6 : 1;
+[; ;pic16f876a.h: 691: unsigned TRISC7 : 1;
+[; ;pic16f876a.h: 692: };
+[; ;pic16f876a.h: 693: } TRISCbits @ 0x087;
+[; ;pic16f876a.h: 697: volatile unsigned char PIE1 @ 0x08C;
+[; ;pic16f876a.h: 699: volatile bit TMR1IE @ ((unsigned)&PIE1*8)+0;
+[; ;pic16f876a.h: 700: volatile bit TMR2IE @ ((unsigned)&PIE1*8)+1;
+[; ;pic16f876a.h: 701: volatile bit CCP1IE @ ((unsigned)&PIE1*8)+2;
+[; ;pic16f876a.h: 702: volatile bit SSPIE @ ((unsigned)&PIE1*8)+3;
+[; ;pic16f876a.h: 703: volatile bit TXIE @ ((unsigned)&PIE1*8)+4;
+[; ;pic16f876a.h: 704: volatile bit RCIE @ ((unsigned)&PIE1*8)+5;
+[; ;pic16f876a.h: 705: volatile bit ADIE @ ((unsigned)&PIE1*8)+6;
+[; ;pic16f876a.h: 707: volatile union {
+[; ;pic16f876a.h: 708: struct {
+[; ;pic16f876a.h: 709: unsigned TMR1IE : 1;
+[; ;pic16f876a.h: 710: unsigned TMR2IE : 1;
+[; ;pic16f876a.h: 711: unsigned CCP1IE : 1;
+[; ;pic16f876a.h: 712: unsigned SSPIE : 1;
+[; ;pic16f876a.h: 713: unsigned TXIE : 1;
+[; ;pic16f876a.h: 714: unsigned RCIE : 1;
+[; ;pic16f876a.h: 715: unsigned ADIE : 1;
+[; ;pic16f876a.h: 716: };
+[; ;pic16f876a.h: 717: } PIE1bits @ 0x08C;
+[; ;pic16f876a.h: 721: volatile unsigned char PIE2 @ 0x08D;
+[; ;pic16f876a.h: 723: volatile bit CCP2IE @ ((unsigned)&PIE2*8)+0;
+[; ;pic16f876a.h: 724: volatile bit BCLIE @ ((unsigned)&PIE2*8)+3;
+[; ;pic16f876a.h: 725: volatile bit EEIE @ ((unsigned)&PIE2*8)+4;
+[; ;pic16f876a.h: 726: volatile bit CMIE @ ((unsigned)&PIE2*8)+6;
+[; ;pic16f876a.h: 728: volatile union {
+[; ;pic16f876a.h: 729: struct {
+[; ;pic16f876a.h: 730: unsigned CCP2IE : 1;
+[; ;pic16f876a.h: 731: unsigned : 2;
+[; ;pic16f876a.h: 732: unsigned BCLIE : 1;
+[; ;pic16f876a.h: 733: unsigned EEIE : 1;
+[; ;pic16f876a.h: 734: unsigned : 1;
+[; ;pic16f876a.h: 735: unsigned CMIE : 1;
+[; ;pic16f876a.h: 736: };
+[; ;pic16f876a.h: 737: } PIE2bits @ 0x08D;
+[; ;pic16f876a.h: 741: volatile unsigned char PCON @ 0x08E;
+[; ;pic16f876a.h: 743: volatile bit nBOR @ ((unsigned)&PCON*8)+0;
+[; ;pic16f876a.h: 744: volatile bit nPOR @ ((unsigned)&PCON*8)+1;
+[; ;pic16f876a.h: 745: volatile bit nBO @ ((unsigned)&PCON*8)+0;
+[; ;pic16f876a.h: 747: volatile union {
+[; ;pic16f876a.h: 748: struct {
+[; ;pic16f876a.h: 749: unsigned nBOR : 1;
+[; ;pic16f876a.h: 750: unsigned nPOR : 1;
+[; ;pic16f876a.h: 751: };
+[; ;pic16f876a.h: 752: struct {
+[; ;pic16f876a.h: 753: unsigned nBO : 1;
+[; ;pic16f876a.h: 754: };
+[; ;pic16f876a.h: 755: } PCONbits @ 0x08E;
+[; ;pic16f876a.h: 759: volatile unsigned char SSPCON2 @ 0x091;
+[; ;pic16f876a.h: 761: volatile bit SEN @ ((unsigned)&SSPCON2*8)+0;
+[; ;pic16f876a.h: 762: volatile bit RSEN @ ((unsigned)&SSPCON2*8)+1;
+[; ;pic16f876a.h: 763: volatile bit PEN @ ((unsigned)&SSPCON2*8)+2;
+[; ;pic16f876a.h: 764: volatile bit RCEN @ ((unsigned)&SSPCON2*8)+3;
+[; ;pic16f876a.h: 765: volatile bit ACKEN @ ((unsigned)&SSPCON2*8)+4;
+[; ;pic16f876a.h: 766: volatile bit ACKDT @ ((unsigned)&SSPCON2*8)+5;
+[; ;pic16f876a.h: 767: volatile bit ACKSTAT @ ((unsigned)&SSPCON2*8)+6;
+[; ;pic16f876a.h: 768: volatile bit GCEN @ ((unsigned)&SSPCON2*8)+7;
+[; ;pic16f876a.h: 770: volatile union {
+[; ;pic16f876a.h: 771: struct {
+[; ;pic16f876a.h: 772: unsigned SEN : 1;
+[; ;pic16f876a.h: 773: unsigned RSEN : 1;
+[; ;pic16f876a.h: 774: unsigned PEN : 1;
+[; ;pic16f876a.h: 775: unsigned RCEN : 1;
+[; ;pic16f876a.h: 776: unsigned ACKEN : 1;
+[; ;pic16f876a.h: 777: unsigned ACKDT : 1;
+[; ;pic16f876a.h: 778: unsigned ACKSTAT : 1;
+[; ;pic16f876a.h: 779: unsigned GCEN : 1;
+[; ;pic16f876a.h: 780: };
+[; ;pic16f876a.h: 781: } SSPCON2bits @ 0x091;
+[; ;pic16f876a.h: 785: volatile unsigned char PR2 @ 0x092;
+[; ;pic16f876a.h: 789: volatile unsigned char SSPADD @ 0x093;
+[; ;pic16f876a.h: 793: volatile unsigned char SSPSTAT @ 0x094;
+[; ;pic16f876a.h: 795: volatile bit BF @ ((unsigned)&SSPSTAT*8)+0;
+[; ;pic16f876a.h: 796: volatile bit UA @ ((unsigned)&SSPSTAT*8)+1;
+[; ;pic16f876a.h: 797: volatile bit R_nW @ ((unsigned)&SSPSTAT*8)+2;
+[; ;pic16f876a.h: 798: volatile bit S @ ((unsigned)&SSPSTAT*8)+3;
+[; ;pic16f876a.h: 799: volatile bit P @ ((unsigned)&SSPSTAT*8)+4;
+[; ;pic16f876a.h: 800: volatile bit D_nA @ ((unsigned)&SSPSTAT*8)+5;
+[; ;pic16f876a.h: 801: volatile bit CKE @ ((unsigned)&SSPSTAT*8)+6;
+[; ;pic16f876a.h: 802: volatile bit SMP @ ((unsigned)&SSPSTAT*8)+7;
+[; ;pic16f876a.h: 803: volatile bit R @ ((unsigned)&SSPSTAT*8)+2;
+[; ;pic16f876a.h: 804: volatile bit D @ ((unsigned)&SSPSTAT*8)+5;
+[; ;pic16f876a.h: 805: volatile bit I2C_READ @ ((unsigned)&SSPSTAT*8)+2;
+[; ;pic16f876a.h: 806: volatile bit I2C_START @ ((unsigned)&SSPSTAT*8)+3;
+[; ;pic16f876a.h: 807: volatile bit I2C_STOP @ ((unsigned)&SSPSTAT*8)+4;
+[; ;pic16f876a.h: 808: volatile bit I2C_DATA @ ((unsigned)&SSPSTAT*8)+5;
+[; ;pic16f876a.h: 809: volatile bit nW @ ((unsigned)&SSPSTAT*8)+2;
+[; ;pic16f876a.h: 810: volatile bit nA @ ((unsigned)&SSPSTAT*8)+5;
+[; ;pic16f876a.h: 811: volatile bit nWRITE @ ((unsigned)&SSPSTAT*8)+2;
+[; ;pic16f876a.h: 812: volatile bit nADDRESS @ ((unsigned)&SSPSTAT*8)+5;
+[; ;pic16f876a.h: 813: volatile bit R_W @ ((unsigned)&SSPSTAT*8)+2;
+[; ;pic16f876a.h: 814: volatile bit D_A @ ((unsigned)&SSPSTAT*8)+5;
+[; ;pic16f876a.h: 815: volatile bit READ_WRITE @ ((unsigned)&SSPSTAT*8)+2;
+[; ;pic16f876a.h: 816: volatile bit DATA_ADDRESS @ ((unsigned)&SSPSTAT*8)+5;
+[; ;pic16f876a.h: 818: volatile union {
+[; ;pic16f876a.h: 819: struct {
+[; ;pic16f876a.h: 820: unsigned BF : 1;
+[; ;pic16f876a.h: 821: unsigned UA : 1;
+[; ;pic16f876a.h: 822: unsigned R_nW : 1;
+[; ;pic16f876a.h: 823: unsigned S : 1;
+[; ;pic16f876a.h: 824: unsigned P : 1;
+[; ;pic16f876a.h: 825: unsigned D_nA : 1;
+[; ;pic16f876a.h: 826: unsigned CKE : 1;
+[; ;pic16f876a.h: 827: unsigned SMP : 1;
+[; ;pic16f876a.h: 828: };
+[; ;pic16f876a.h: 829: struct {
+[; ;pic16f876a.h: 830: unsigned : 1;
+[; ;pic16f876a.h: 831: unsigned : 1;
+[; ;pic16f876a.h: 832: unsigned : 1;
+[; ;pic16f876a.h: 833: unsigned : 1;
+[; ;pic16f876a.h: 834: unsigned : 1;
+[; ;pic16f876a.h: 835: unsigned : 1;
+[; ;pic16f876a.h: 836: unsigned : 1;
+[; ;pic16f876a.h: 837: unsigned : 1;
+[; ;pic16f876a.h: 838: };
+[; ;pic16f876a.h: 839: struct {
+[; ;pic16f876a.h: 840: unsigned : 2;
+[; ;pic16f876a.h: 841: unsigned R : 1;
+[; ;pic16f876a.h: 842: unsigned : 2;
+[; ;pic16f876a.h: 843: unsigned D : 1;
+[; ;pic16f876a.h: 844: };
+[; ;pic16f876a.h: 845: struct {
+[; ;pic16f876a.h: 846: unsigned : 2;
+[; ;pic16f876a.h: 847: unsigned I2C_READ : 1;
+[; ;pic16f876a.h: 848: unsigned I2C_START : 1;
+[; ;pic16f876a.h: 849: unsigned I2C_STOP : 1;
+[; ;pic16f876a.h: 850: unsigned I2C_DATA : 1;
+[; ;pic16f876a.h: 851: };
+[; ;pic16f876a.h: 852: struct {
+[; ;pic16f876a.h: 853: unsigned : 2;
+[; ;pic16f876a.h: 854: unsigned nW : 1;
+[; ;pic16f876a.h: 855: unsigned : 2;
+[; ;pic16f876a.h: 856: unsigned nA : 1;
+[; ;pic16f876a.h: 857: };
+[; ;pic16f876a.h: 858: struct {
+[; ;pic16f876a.h: 859: unsigned : 2;
+[; ;pic16f876a.h: 860: unsigned nWRITE : 1;
+[; ;pic16f876a.h: 861: unsigned : 2;
+[; ;pic16f876a.h: 862: unsigned nADDRESS : 1;
+[; ;pic16f876a.h: 863: };
+[; ;pic16f876a.h: 864: struct {
+[; ;pic16f876a.h: 865: unsigned : 2;
+[; ;pic16f876a.h: 866: unsigned R_W : 1;
+[; ;pic16f876a.h: 867: unsigned : 2;
+[; ;pic16f876a.h: 868: unsigned D_A : 1;
+[; ;pic16f876a.h: 869: };
+[; ;pic16f876a.h: 870: struct {
+[; ;pic16f876a.h: 871: unsigned : 2;
+[; ;pic16f876a.h: 872: unsigned READ_WRITE : 1;
+[; ;pic16f876a.h: 873: unsigned : 2;
+[; ;pic16f876a.h: 874: unsigned DATA_ADDRESS : 1;
+[; ;pic16f876a.h: 875: };
+[; ;pic16f876a.h: 876: } SSPSTATbits @ 0x094;
+[; ;pic16f876a.h: 880: volatile unsigned char TXSTA @ 0x098;
+[; ;pic16f876a.h: 882: volatile bit TX9D @ ((unsigned)&TXSTA*8)+0;
+[; ;pic16f876a.h: 883: volatile bit TRMT @ ((unsigned)&TXSTA*8)+1;
+[; ;pic16f876a.h: 884: volatile bit BRGH @ ((unsigned)&TXSTA*8)+2;
+[; ;pic16f876a.h: 885: volatile bit SYNC @ ((unsigned)&TXSTA*8)+4;
+[; ;pic16f876a.h: 886: volatile bit TXEN @ ((unsigned)&TXSTA*8)+5;
+[; ;pic16f876a.h: 887: volatile bit TX9 @ ((unsigned)&TXSTA*8)+6;
+[; ;pic16f876a.h: 888: volatile bit CSRC @ ((unsigned)&TXSTA*8)+7;
+[; ;pic16f876a.h: 889: volatile bit TXD8 @ ((unsigned)&TXSTA*8)+0;
+[; ;pic16f876a.h: 890: volatile bit nTX8 @ ((unsigned)&TXSTA*8)+6;
+[; ;pic16f876a.h: 891: volatile bit TX8_9 @ ((unsigned)&TXSTA*8)+6;
+[; ;pic16f876a.h: 893: volatile union {
+[; ;pic16f876a.h: 894: struct {
+[; ;pic16f876a.h: 895: unsigned TX9D : 1;
+[; ;pic16f876a.h: 896: unsigned TRMT : 1;
+[; ;pic16f876a.h: 897: unsigned BRGH : 1;
+[; ;pic16f876a.h: 898: unsigned : 1;
+[; ;pic16f876a.h: 899: unsigned SYNC : 1;
+[; ;pic16f876a.h: 900: unsigned TXEN : 1;
+[; ;pic16f876a.h: 901: unsigned TX9 : 1;
+[; ;pic16f876a.h: 902: unsigned CSRC : 1;
+[; ;pic16f876a.h: 903: };
+[; ;pic16f876a.h: 904: struct {
+[; ;pic16f876a.h: 905: unsigned TXD8 : 1;
+[; ;pic16f876a.h: 906: unsigned : 5;
+[; ;pic16f876a.h: 907: unsigned nTX8 : 1;
+[; ;pic16f876a.h: 908: };
+[; ;pic16f876a.h: 909: struct {
+[; ;pic16f876a.h: 910: unsigned : 6;
+[; ;pic16f876a.h: 911: unsigned TX8_9 : 1;
+[; ;pic16f876a.h: 912: };
+[; ;pic16f876a.h: 913: } TXSTAbits @ 0x098;
+[; ;pic16f876a.h: 917: volatile unsigned char SPBRG @ 0x099;
+[; ;pic16f876a.h: 921: volatile unsigned char CMCON @ 0x09C;
+[; ;pic16f876a.h: 923: volatile bit CIS @ ((unsigned)&CMCON*8)+3;
+[; ;pic16f876a.h: 924: volatile bit C1INV @ ((unsigned)&CMCON*8)+4;
+[; ;pic16f876a.h: 925: volatile bit C2INV @ ((unsigned)&CMCON*8)+5;
+[; ;pic16f876a.h: 926: volatile bit C1OUT @ ((unsigned)&CMCON*8)+6;
+[; ;pic16f876a.h: 927: volatile bit C2OUT @ ((unsigned)&CMCON*8)+7;
+[; ;pic16f876a.h: 928: volatile bit CM0 @ ((unsigned)&CMCON*8)+0;
+[; ;pic16f876a.h: 929: volatile bit CM1 @ ((unsigned)&CMCON*8)+1;
+[; ;pic16f876a.h: 930: volatile bit CM2 @ ((unsigned)&CMCON*8)+2;
+[; ;pic16f876a.h: 932: volatile union {
+[; ;pic16f876a.h: 933: struct {
+[; ;pic16f876a.h: 934: unsigned CM : 3;
+[; ;pic16f876a.h: 935: unsigned CIS : 1;
+[; ;pic16f876a.h: 936: unsigned C1INV : 1;
+[; ;pic16f876a.h: 937: unsigned C2INV : 1;
+[; ;pic16f876a.h: 938: unsigned C1OUT : 1;
+[; ;pic16f876a.h: 939: unsigned C2OUT : 1;
+[; ;pic16f876a.h: 940: };
+[; ;pic16f876a.h: 941: struct {
+[; ;pic16f876a.h: 942: unsigned CM0 : 1;
+[; ;pic16f876a.h: 943: unsigned CM1 : 1;
+[; ;pic16f876a.h: 944: unsigned CM2 : 1;
+[; ;pic16f876a.h: 945: };
+[; ;pic16f876a.h: 946: } CMCONbits @ 0x09C;
+[; ;pic16f876a.h: 950: volatile unsigned char CVRCON @ 0x09D;
+[; ;pic16f876a.h: 952: volatile bit CVRR @ ((unsigned)&CVRCON*8)+5;
+[; ;pic16f876a.h: 953: volatile bit CVROE @ ((unsigned)&CVRCON*8)+6;
+[; ;pic16f876a.h: 954: volatile bit CVREN @ ((unsigned)&CVRCON*8)+7;
+[; ;pic16f876a.h: 955: volatile bit CVR0 @ ((unsigned)&CVRCON*8)+0;
+[; ;pic16f876a.h: 956: volatile bit CVR1 @ ((unsigned)&CVRCON*8)+1;
+[; ;pic16f876a.h: 957: volatile bit CVR2 @ ((unsigned)&CVRCON*8)+2;
+[; ;pic16f876a.h: 958: volatile bit CVR3 @ ((unsigned)&CVRCON*8)+3;
+[; ;pic16f876a.h: 960: volatile union {
+[; ;pic16f876a.h: 961: struct {
+[; ;pic16f876a.h: 962: unsigned CVR : 4;
+[; ;pic16f876a.h: 963: unsigned : 1;
+[; ;pic16f876a.h: 964: unsigned CVRR : 1;
+[; ;pic16f876a.h: 965: unsigned CVROE : 1;
+[; ;pic16f876a.h: 966: unsigned CVREN : 1;
+[; ;pic16f876a.h: 967: };
+[; ;pic16f876a.h: 968: struct {
+[; ;pic16f876a.h: 969: unsigned CVR0 : 1;
+[; ;pic16f876a.h: 970: unsigned CVR1 : 1;
+[; ;pic16f876a.h: 971: unsigned CVR2 : 1;
+[; ;pic16f876a.h: 972: unsigned CVR3 : 1;
+[; ;pic16f876a.h: 973: };
+[; ;pic16f876a.h: 974: } CVRCONbits @ 0x09D;
+[; ;pic16f876a.h: 978: volatile unsigned char ADRESL @ 0x09E;
+[; ;pic16f876a.h: 982: volatile unsigned char ADCON1 @ 0x09F;
+[; ;pic16f876a.h: 984: volatile bit ADCS2 @ ((unsigned)&ADCON1*8)+6;
+[; ;pic16f876a.h: 985: volatile bit ADFM @ ((unsigned)&ADCON1*8)+7;
+[; ;pic16f876a.h: 986: volatile bit PCFG0 @ ((unsigned)&ADCON1*8)+0;
+[; ;pic16f876a.h: 987: volatile bit PCFG1 @ ((unsigned)&ADCON1*8)+1;
+[; ;pic16f876a.h: 988: volatile bit PCFG2 @ ((unsigned)&ADCON1*8)+2;
+[; ;pic16f876a.h: 989: volatile bit PCFG3 @ ((unsigned)&ADCON1*8)+3;
+[; ;pic16f876a.h: 991: volatile union {
+[; ;pic16f876a.h: 992: struct {
+[; ;pic16f876a.h: 993: unsigned PCFG : 4;
+[; ;pic16f876a.h: 994: unsigned : 2;
+[; ;pic16f876a.h: 995: unsigned ADCS2 : 1;
+[; ;pic16f876a.h: 996: unsigned ADFM : 1;
+[; ;pic16f876a.h: 997: };
+[; ;pic16f876a.h: 998: struct {
+[; ;pic16f876a.h: 999: unsigned PCFG0 : 1;
+[; ;pic16f876a.h: 1000: unsigned PCFG1 : 1;
+[; ;pic16f876a.h: 1001: unsigned PCFG2 : 1;
+[; ;pic16f876a.h: 1002: unsigned PCFG3 : 1;
+[; ;pic16f876a.h: 1003: };
+[; ;pic16f876a.h: 1004: } ADCON1bits @ 0x09F;
+[; ;pic16f876a.h: 1013: volatile unsigned char EEDATA @ 0x10C;
+[; ;pic16f876a.h: 1017: volatile unsigned char EEADR @ 0x10D;
+[; ;pic16f876a.h: 1021: volatile unsigned char EEDATH @ 0x10E;
+[; ;pic16f876a.h: 1024: volatile union {
+[; ;pic16f876a.h: 1025: struct {
+[; ;pic16f876a.h: 1026: unsigned : 6;
+[; ;pic16f876a.h: 1027: };
+[; ;pic16f876a.h: 1028: } EEDATHbits @ 0x10E;
+[; ;pic16f876a.h: 1032: volatile unsigned char EEADRH @ 0x10F;
+[; ;pic16f876a.h: 1035: volatile union {
+[; ;pic16f876a.h: 1036: struct {
+[; ;pic16f876a.h: 1037: unsigned : 5;
+[; ;pic16f876a.h: 1038: };
+[; ;pic16f876a.h: 1039: } EEADRHbits @ 0x10F;
+[; ;pic16f876a.h: 1048: volatile unsigned char EECON1 @ 0x18C;
+[; ;pic16f876a.h: 1050: volatile bit RD @ ((unsigned)&EECON1*8)+0;
+[; ;pic16f876a.h: 1051: volatile bit WR @ ((unsigned)&EECON1*8)+1;
+[; ;pic16f876a.h: 1052: volatile bit WREN @ ((unsigned)&EECON1*8)+2;
+[; ;pic16f876a.h: 1053: volatile bit WRERR @ ((unsigned)&EECON1*8)+3;
+[; ;pic16f876a.h: 1054: volatile bit EEPGD @ ((unsigned)&EECON1*8)+7;
+[; ;pic16f876a.h: 1056: volatile union {
+[; ;pic16f876a.h: 1057: struct {
+[; ;pic16f876a.h: 1058: unsigned RD : 1;
+[; ;pic16f876a.h: 1059: unsigned WR : 1;
+[; ;pic16f876a.h: 1060: unsigned WREN : 1;
+[; ;pic16f876a.h: 1061: unsigned WRERR : 1;
+[; ;pic16f876a.h: 1062: unsigned : 3;
+[; ;pic16f876a.h: 1063: unsigned EEPGD : 1;
+[; ;pic16f876a.h: 1064: };
+[; ;pic16f876a.h: 1065: } EECON1bits @ 0x18C;
+[; ;pic16f876a.h: 1069: volatile unsigned char EECON2 @ 0x18D;
+[; ;pic.h: 28: extern void _nop(void);
+[; ;pic.h: 80: extern unsigned int flash_read(unsigned short addr);
+[; ;eeprom_routines.h: 41: extern unsigned char eeprom_write(unsigned char addr, unsigned char value);
+[; ;eeprom_routines.h: 42: extern unsigned char eeprom_read(unsigned char addr);
+[; ;eeprom_routines.h: 43: extern void eecpymem(volatile unsigned char *to, eeprom unsigned char *from, unsigned char size);
+[; ;eeprom_routines.h: 44: extern void memcpyee(eeprom unsigned char *to, const unsigned char *from, unsigned char size);
+[; ;pic.h: 154: extern void _delay(unsigned long);
+"16 ../../Source code PR24/PR24.c
+[; ;PR24.c: 16: asm("\tpsect config,class=CONFIG,delta=2"); asm("\tdw ""0x3F32");
+[; 	psect config,class=CONFIG,delta=2 ;#
+[; 	dw 0x3F32 ;#
+"40
+[i _kp
+-> -> 0 `i `uc
+]
+[; ;PR24.c: 40: unsigned char kp = 0;
+"41
+[i _ki
+-> -> 0 `i `uc
+]
+[; ;PR24.c: 41: unsigned char ki = 0;
+"42
+[i _kd
+-> -> 0 `i `uc
+]
+[; ;PR24.c: 42: unsigned char kd = 0;
+[; ;PR24.c: 49: unsigned char ai_read(unsigned char an_sel);
+[; ;PR24.c: 50: void motor_right(unsigned char speed);
+[; ;PR24.c: 51: void motor_left(unsigned char speed);
+[; ;PR24.c: 52: void motor_stop(void);
+[; ;PR24.c: 54: void delay(unsigned long data);
+[; ;PR24.c: 55: void e_pulse(void);
+[; ;PR24.c: 56: void lcd_clr(void);
+[; ;PR24.c: 57: void lcd_goto(unsigned char data);
+[; ;PR24.c: 58: void send_char(unsigned char data);
+[; ;PR24.c: 59: void send_config(unsigned char data);
+[; ;PR24.c: 60: void send_string(const char *s);
+[; ;PR24.c: 61: void send_dec(unsigned long data,unsigned char num_dig);
+"67
+[v _main `(v  1 ef ]
+{
+[; ;PR24.c: 66: void main(void)
+[; ;PR24.c: 67: {
+[e :U _main ]
+[f ]
+"68
+[v _rec_data `ul  1 a ]
+[; ;PR24.c: 68: unsigned long rec_data=0;
+[e = _rec_data -> -> -> 0 `i `l `ul ]
+[; ;PR24.c: 71: TRISB = 0b00000001;
+"71
+[e = _TRISB -> -> 1 `i `uc ]
+[; ;PR24.c: 72: TRISC = 0b00000000;
+"72
+[e = _TRISC -> -> 0 `i `uc ]
+[; ;PR24.c: 73: TRISA = 0b11111111;
+"73
+[e = _TRISA -> -> 255 `i `uc ]
+[; ;PR24.c: 76: PORTB = 0;
+"76
+[e = _PORTB -> -> 0 `i `uc ]
+[; ;PR24.c: 77: PORTC = 0;
+"77
+[e = _PORTC -> -> 0 `i `uc ]
+[; ;PR24.c: 80: CCP1CON = 0b00001100;
+"80
+[e = _CCP1CON -> -> 12 `i `uc ]
+[; ;PR24.c: 81: T2CON = 0b00000101;
+"81
+[e = _T2CON -> -> 5 `i `uc ]
+[; ;PR24.c: 82: PR2 = 0xFF;
+"82
+[e = _PR2 -> -> 255 `i `uc ]
+[; ;PR24.c: 83: CCPR1L = 0;
+"83
+[e = _CCPR1L -> -> 0 `i `uc ]
+[; ;PR24.c: 86: ADCON1 = 0b01000000;
+"86
+[e = _ADCON1 -> -> 64 `i `uc ]
+[; ;PR24.c: 87: ADCON0 = 0b00000001;
+"87
+[e = _ADCON0 -> -> 1 `i `uc ]
+[; ;PR24.c: 90: send_config(0b00000001);
+"90
+[e ( _send_config (1 -> -> 1 `i `uc ]
+[; ;PR24.c: 91: send_config(0b00000010);
+"91
+[e ( _send_config (1 -> -> 2 `i `uc ]
+[; ;PR24.c: 92: send_config(0b00000110);
+"92
+[e ( _send_config (1 -> -> 6 `i `uc ]
+[; ;PR24.c: 93: send_config(0b00001100);
+"93
+[e ( _send_config (1 -> -> 12 `i `uc ]
+[; ;PR24.c: 94: send_config(0b00111000);
+"94
+[e ( _send_config (1 -> -> 56 `i `uc ]
+[; ;PR24.c: 96: lcd_clr();
+"96
+[e ( _lcd_clr ..  ]
+[; ;PR24.c: 97: lcd_goto(0);
+"97
+[e ( _lcd_goto (1 -> -> 0 `i `uc ]
+[; ;PR24.c: 98: send_string("ANGLE=");
+"98
+[e ( _send_string (1 :s 1C ]
+[; ;PR24.c: 99: lcd_goto(11);
+"99
+[e ( _lcd_goto (1 -> -> 11 `i `uc ]
+[; ;PR24.c: 100: send_string("P=");
+"100
+[e ( _send_string (1 :s 2C ]
+[; ;PR24.c: 101: lcd_goto(20);
+"101
+[e ( _lcd_goto (1 -> -> 20 `i `uc ]
+[; ;PR24.c: 102: send_string("I=");
+"102
+[e ( _send_string (1 :s 3C ]
+[; ;PR24.c: 103: lcd_goto(26);
+"103
+[e ( _lcd_goto (1 -> -> 26 `i `uc ]
+[; ;PR24.c: 104: send_string("D=");
+"104
+[e ( _send_string (1 :s 4C ]
+[; ;PR24.c: 107: while(1)
+"107
+[e :U 95 ]
+[; ;PR24.c: 108: {
+"108
+{
+[; ;PR24.c: 109: rec_data = (unsigned long)ai_read(0) * 3600 / 255;
+"109
+[e = _rec_data / * -> ( _ai_read (1 -> -> 0 `i `uc `ul -> -> -> 3600 `i `l `ul -> -> -> 255 `i `l `ul ]
+[; ;PR24.c: 110: lcd_goto(6);
+"110
+[e ( _lcd_goto (1 -> -> 6 `i `uc ]
+[; ;PR24.c: 111: send_dec(rec_data, 4);
+"111
+[e ( _send_dec (2 , _rec_data -> -> 4 `i `uc ]
+[; ;PR24.c: 113: kp = ai_read(2);
+"113
+[e = _kp ( _ai_read (1 -> -> 2 `i `uc ]
+[; ;PR24.c: 114: lcd_goto(13);
+"114
+[e ( _lcd_goto (1 -> -> 13 `i `uc ]
+[; ;PR24.c: 115: send_dec(kp, 3);
+"115
+[e ( _send_dec (2 , -> _kp `ul -> -> 3 `i `uc ]
+[; ;PR24.c: 117: ki = ai_read(3);
+"117
+[e = _ki ( _ai_read (1 -> -> 3 `i `uc ]
+[; ;PR24.c: 118: lcd_goto(22);
+"118
+[e ( _lcd_goto (1 -> -> 22 `i `uc ]
+[; ;PR24.c: 119: send_dec(ki, 3);
+"119
+[e ( _send_dec (2 , -> _ki `ul -> -> 3 `i `uc ]
+[; ;PR24.c: 121: kd = ai_read(4);
+"121
+[e = _kd ( _ai_read (1 -> -> 4 `i `uc ]
+[; ;PR24.c: 122: lcd_goto(28);
+"122
+[e ( _lcd_goto (1 -> -> 28 `i `uc ]
+[; ;PR24.c: 123: send_dec(kd, 3);
+"123
+[e ( _send_dec (2 , -> _kd `ul -> -> 3 `i `uc ]
+[; ;PR24.c: 126: if(!RB0)
+"126
+[e $ ! ! _RB0 97  ]
+[; ;PR24.c: 127: {
+"127
+{
+[; ;PR24.c: 128: while(!RB0);
+"128
+[e $U 98  ]
+[e :U 99 ]
+[e :U 98 ]
+[e $ ! _RB0 99  ]
+[e :U 100 ]
+[; ;PR24.c: 131: TMR1H = 0;
+"131
+[e = _TMR1H -> -> 0 `i `uc ]
+[; ;PR24.c: 132: TMR1L = 0;
+"132
+[e = _TMR1L -> -> 0 `i `uc ]
+[; ;PR24.c: 133: T1CON = 0b00110001;
+"133
+[e = _T1CON -> -> 49 `i `uc ]
+[; ;PR24.c: 136: TMR1IF=0;
+"136
+[e = _TMR1IF -> -> 0 `i `b ]
+[; ;PR24.c: 137: TMR1IE=1;
+"137
+[e = _TMR1IE -> -> 1 `i `b ]
+[; ;PR24.c: 138: PEIE=1;
+"138
+[e = _PEIE -> -> 1 `i `b ]
+[; ;PR24.c: 139: GIE=1;
+"139
+[e = _GIE -> -> 1 `i `b ]
+[; ;PR24.c: 141: while(1);
+"141
+[e :U 102 ]
+[e :U 101 ]
+[e $U 102  ]
+[e :U 103 ]
+"142
+}
+[e :U 97 ]
+"143
+}
+[e :U 94 ]
+"107
+[e $U 95  ]
+[e :U 96 ]
+[; ;PR24.c: 142: }
+[; ;PR24.c: 143: }
+[; ;PR24.c: 144: }
+"144
+[e :UE 93 ]
+}
+"149
+[v _ai_read `(uc  1 ef1`uc ]
+{
+[; ;PR24.c: 148: unsigned char ai_read(unsigned char an_sel)
+[; ;PR24.c: 149: {
+[e :U _ai_read ]
+[v _an_sel `uc  1 r1 ]
+[f ]
+[; ;PR24.c: 150: if(an_sel == 0) ADCON0 = 0b00000001;
+"150
+[e $ ! == -> _an_sel `i -> 0 `i 105  ]
+[e = _ADCON0 -> -> 1 `i `uc ]
+[e $U 106  ]
+"151
+[e :U 105 ]
+[; ;PR24.c: 151: else if(an_sel == 1) ADCON0 = 0b00001001;
+[e $ ! == -> _an_sel `i -> 1 `i 107  ]
+[e = _ADCON0 -> -> 9 `i `uc ]
+[e $U 108  ]
+"152
+[e :U 107 ]
+[; ;PR24.c: 152: else if(an_sel == 2) ADCON0 = 0b00010001;
+[e $ ! == -> _an_sel `i -> 2 `i 109  ]
+[e = _ADCON0 -> -> 17 `i `uc ]
+[e $U 110  ]
+"153
+[e :U 109 ]
+[; ;PR24.c: 153: else if(an_sel == 3) ADCON0 = 0b00011001;
+[e $ ! == -> _an_sel `i -> 3 `i 111  ]
+[e = _ADCON0 -> -> 25 `i `uc ]
+[e $U 112  ]
+"154
+[e :U 111 ]
+[; ;PR24.c: 154: else if(an_sel == 4) ADCON0 = 0b00100001;
+[e $ ! == -> _an_sel `i -> 4 `i 113  ]
+[e = _ADCON0 -> -> 33 `i `uc ]
+[e :U 113 ]
+"156
+[e :U 112 ]
+[e :U 110 ]
+[e :U 108 ]
+[e :U 106 ]
+[; ;PR24.c: 156: delay(100);
+[e ( _delay (1 -> -> -> 100 `i `l `ul ]
+[; ;PR24.c: 158: GO=1;
+"158
+[e = _GO -> -> 1 `i `b ]
+[; ;PR24.c: 159: while(GO==1);
+"159
+[e $U 114  ]
+[e :U 115 ]
+[e :U 114 ]
+[e $ == -> _GO `i -> 1 `i 115  ]
+[e :U 116 ]
+[; ;PR24.c: 161: if(an_sel == 0 || an_sel == 1) return ADRESH;
+"161
+[e $ ! || == -> _an_sel `i -> 0 `i == -> _an_sel `i -> 1 `i 117  ]
+[e ) _ADRESH ]
+[e $UE 104  ]
+[e $U 118  ]
+"162
+[e :U 117 ]
+[; ;PR24.c: 162: else return ADRESH * 100 / 255;
+[e ) -> / * -> _ADRESH `i -> 100 `i -> 255 `i `uc ]
+[e $UE 104  ]
+[e :U 118 ]
+[; ;PR24.c: 163: }
+"163
+[e :UE 104 ]
+}
+"168
+[v _motor_right `(v  1 ef1`uc ]
+{
+[; ;PR24.c: 167: void motor_right(unsigned char speed)
+[; ;PR24.c: 168: {
+[e :U _motor_right ]
+[v _speed `uc  1 r1 ]
+[f ]
+[; ;PR24.c: 169: RC1 = 0;
+"169
+[e = _RC1 -> -> 0 `i `b ]
+[; ;PR24.c: 170: RC0 = 1;
+"170
+[e = _RC0 -> -> 1 `i `b ]
+[; ;PR24.c: 171: CCPR1L = speed;
+"171
+[e = _CCPR1L _speed ]
+[; ;PR24.c: 172: }
+"172
+[e :UE 119 ]
+}
+"177
+[v _motor_left `(v  1 ef1`uc ]
+{
+[; ;PR24.c: 176: void motor_left(unsigned char speed)
+[; ;PR24.c: 177: {
+[e :U _motor_left ]
+[v _speed `uc  1 r1 ]
+[f ]
+[; ;PR24.c: 178: RC1 = 1;
+"178
+[e = _RC1 -> -> 1 `i `b ]
+[; ;PR24.c: 179: RC0 = 0;
+"179
+[e = _RC0 -> -> 0 `i `b ]
+[; ;PR24.c: 180: CCPR1L = speed;
+"180
+[e = _CCPR1L _speed ]
+[; ;PR24.c: 181: }
+"181
+[e :UE 120 ]
+}
+"186
+[v _motor_stop `(v  1 ef ]
+{
+[; ;PR24.c: 185: void motor_stop(void)
+[; ;PR24.c: 186: {
+[e :U _motor_stop ]
+[f ]
+[; ;PR24.c: 187: RC1 = 1;
+"187
+[e = _RC1 -> -> 1 `i `b ]
+[; ;PR24.c: 188: RC0 = 1;
+"188
+[e = _RC0 -> -> 1 `i `b ]
+[; ;PR24.c: 189: CCPR1L = 0;
+"189
+[e = _CCPR1L -> -> 0 `i `uc ]
+[; ;PR24.c: 190: }
+"190
+[e :UE 121 ]
+}
+"195
+[v _delay `(v  1 ef1`ul ]
+{
+[; ;PR24.c: 194: void delay(unsigned long data)
+[; ;PR24.c: 195: {
+[e :U _delay ]
+[v _data `ul  1 r1 ]
+[f ]
+[; ;PR24.c: 196: for( ; data > 0; data -= 1);
+"196
+{
+[e $ > _data -> -> -> 0 `i `l `ul 123  ]
+[e $U 124  ]
+[e :U 123 ]
+[e =- _data -> -> -> 1 `i `l `ul ]
+[e $ > _data -> -> -> 0 `i `l `ul 123  ]
+[e :U 124 ]
+}
+[; ;PR24.c: 197: }
+"197
+[e :UE 122 ]
+}
+"202
+[v _e_pulse `(v  1 ef ]
+{
+[; ;PR24.c: 201: void e_pulse(void)
+[; ;PR24.c: 202: {
+[e :U _e_pulse ]
+[f ]
+[; ;PR24.c: 203: RB6 = 1;
+"203
+[e = _RB6 -> -> 1 `i `b ]
+[; ;PR24.c: 204: delay(50);
+"204
+[e ( _delay (1 -> -> -> 50 `i `l `ul ]
+[; ;PR24.c: 205: RB6 = 0;
+"205
+[e = _RB6 -> -> 0 `i `b ]
+[; ;PR24.c: 206: delay(50);
+"206
+[e ( _delay (1 -> -> -> 50 `i `l `ul ]
+[; ;PR24.c: 207: }
+"207
+[e :UE 126 ]
+}
+"212
+[v _send_config `(v  1 ef1`uc ]
+{
+[; ;PR24.c: 211: void send_config(unsigned char data)
+[; ;PR24.c: 212: {
+[e :U _send_config ]
+[v _data `uc  1 r1 ]
+[f ]
+"213
+[v _test `uc  1 a ]
+"214
+[v _i `uc  1 a ]
+[; ;PR24.c: 213: unsigned char test;
+[; ;PR24.c: 214: unsigned char i;
+[; ;PR24.c: 216: RB7 = 0;
+"216
+[e = _RB7 -> -> 0 `i `b ]
+[; ;PR24.c: 217: for(i = 0; i < 8; i++)
+"217
+{
+[e = _i -> -> 0 `i `uc ]
+[e $ < -> _i `i -> 8 `i 128  ]
+[e $U 129  ]
+"218
+[e :U 128 ]
+[; ;PR24.c: 218: {
+{
+[; ;PR24.c: 219: test = (data >> i) & 0b00000001;
+"219
+[e = _test -> & >> -> _data `i _i -> 1 `i `uc ]
+[; ;PR24.c: 220: switch(i)
+"220
+[e $U 132  ]
+[; ;PR24.c: 221: {
+"221
+{
+[; ;PR24.c: 222: case 0:
+"222
+[e :U 133 ]
+[; ;PR24.c: 223: if(test == 1) RB5 = 1;
+"223
+[e $ ! == -> _test `i -> 1 `i 134  ]
+[e = _RB5 -> -> 1 `i `b ]
+[e $U 135  ]
+"224
+[e :U 134 ]
+[; ;PR24.c: 224: else RB5 = 0;
+[e = _RB5 -> -> 0 `i `b ]
+[e :U 135 ]
+[; ;PR24.c: 225: case 1:
+"225
+[e :U 136 ]
+[; ;PR24.c: 226: if(test == 1) RB4 = 1;
+"226
+[e $ ! == -> _test `i -> 1 `i 137  ]
+[e = _RB4 -> -> 1 `i `b ]
+[e $U 138  ]
+"227
+[e :U 137 ]
+[; ;PR24.c: 227: else RB4 = 0;
+[e = _RB4 -> -> 0 `i `b ]
+[e :U 138 ]
+[; ;PR24.c: 228: case 2:
+"228
+[e :U 139 ]
+[; ;PR24.c: 229: if(test == 1) RB3 = 1;
+"229
+[e $ ! == -> _test `i -> 1 `i 140  ]
+[e = _RB3 -> -> 1 `i `b ]
+[e $U 141  ]
+"230
+[e :U 140 ]
+[; ;PR24.c: 230: else RB3 = 0;
+[e = _RB3 -> -> 0 `i `b ]
+[e :U 141 ]
+[; ;PR24.c: 231: case 3:
+"231
+[e :U 142 ]
+[; ;PR24.c: 232: if(test == 1) RB2 = 1;
+"232
+[e $ ! == -> _test `i -> 1 `i 143  ]
+[e = _RB2 -> -> 1 `i `b ]
+[e $U 144  ]
+"233
+[e :U 143 ]
+[; ;PR24.c: 233: else RB2 = 0;
+[e = _RB2 -> -> 0 `i `b ]
+[e :U 144 ]
+[; ;PR24.c: 234: case 4:
+"234
+[e :U 145 ]
+[; ;PR24.c: 235: if(test == 1) RB1 = 1;
+"235
+[e $ ! == -> _test `i -> 1 `i 146  ]
+[e = _RB1 -> -> 1 `i `b ]
+[e $U 147  ]
+"236
+[e :U 146 ]
+[; ;PR24.c: 236: else RB1 = 0;
+[e = _RB1 -> -> 0 `i `b ]
+[e :U 147 ]
+[; ;PR24.c: 237: case 5:
+"237
+[e :U 148 ]
+[; ;PR24.c: 238: if(test == 1) RC5 = 1;
+"238
+[e $ ! == -> _test `i -> 1 `i 149  ]
+[e = _RC5 -> -> 1 `i `b ]
+[e $U 150  ]
+"239
+[e :U 149 ]
+[; ;PR24.c: 239: else RC5 = 0;
+[e = _RC5 -> -> 0 `i `b ]
+[e :U 150 ]
+[; ;PR24.c: 240: case 6:
+"240
+[e :U 151 ]
+[; ;PR24.c: 241: if(test == 1) RC4 = 1;
+"241
+[e $ ! == -> _test `i -> 1 `i 152  ]
+[e = _RC4 -> -> 1 `i `b ]
+[e $U 153  ]
+"242
+[e :U 152 ]
+[; ;PR24.c: 242: else RC4 = 0;
+[e = _RC4 -> -> 0 `i `b ]
+[e :U 153 ]
+[; ;PR24.c: 243: case 7:
+"243
+[e :U 154 ]
+[; ;PR24.c: 244: if(test == 1) RC3 = 1;
+"244
+[e $ ! == -> _test `i -> 1 `i 155  ]
+[e = _RC3 -> -> 1 `i `b ]
+[e $U 156  ]
+"245
+[e :U 155 ]
+[; ;PR24.c: 245: else RC3 = 0;
+[e = _RC3 -> -> 0 `i `b ]
+[e :U 156 ]
+"246
+}
+[; ;PR24.c: 246: }
+[e $U 131  ]
+"220
+[e :U 132 ]
+[e [\ _i , $ -> -> 0 `i `uc 133
+ , $ -> -> 1 `i `uc 136
+ , $ -> -> 2 `i `uc 139
+ , $ -> -> 3 `i `uc 142
+ , $ -> -> 4 `i `uc 145
+ , $ -> -> 5 `i `uc 148
+ , $ -> -> 6 `i `uc 151
+ , $ -> -> 7 `i `uc 154
+ 131 ]
+"246
+[e :U 131 ]
+"247
+}
+"217
+[e ++ _i -> -> 1 `i `uc ]
+[e $ < -> _i `i -> 8 `i 128  ]
+[e :U 129 ]
+"247
+}
+[; ;PR24.c: 247: }
+[; ;PR24.c: 248: delay(50);
+"248
+[e ( _delay (1 -> -> -> 50 `i `l `ul ]
+[; ;PR24.c: 249: e_pulse();
+"249
+[e ( _e_pulse ..  ]
+[; ;PR24.c: 250: }
+"250
+[e :UE 127 ]
+}
+"255
+[v _lcd_clr `(v  1 ef ]
+{
+[; ;PR24.c: 254: void lcd_clr(void)
+[; ;PR24.c: 255: {
+[e :U _lcd_clr ]
+[f ]
+[; ;PR24.c: 256: send_config(0x01);
+"256
+[e ( _send_config (1 -> -> 1 `i `uc ]
+[; ;PR24.c: 257: delay(600);
+"257
+[e ( _delay (1 -> -> -> 600 `i `l `ul ]
+[; ;PR24.c: 258: }
+"258
+[e :UE 157 ]
+}
+"270
+[v _lcd_goto `(v  1 ef1`uc ]
+{
+[; ;PR24.c: 269: void lcd_goto(unsigned char data)
+[; ;PR24.c: 270: {
+[e :U _lcd_goto ]
+[v _data `uc  1 r1 ]
+[f ]
+[; ;PR24.c: 271: if(data < 16)
+"271
+[e $ ! < -> _data `i -> 16 `i 159  ]
+[; ;PR24.c: 272: {
+"272
+{
+[; ;PR24.c: 273: send_config(0x80 + data);
+"273
+[e ( _send_config (1 -> + -> 128 `i -> _data `i `uc ]
+"274
+}
+[; ;PR24.c: 274: }
+[e $U 160  ]
+"275
+[e :U 159 ]
+[; ;PR24.c: 275: else
+[; ;PR24.c: 276: {
+"276
+{
+[; ;PR24.c: 277: data = data - 20;
+"277
+[e = _data -> - -> _data `i -> 20 `i `uc ]
+[; ;PR24.c: 278: send_config(0xc0 + data);
+"278
+[e ( _send_config (1 -> + -> 192 `i -> _data `i `uc ]
+"279
+}
+[e :U 160 ]
+[; ;PR24.c: 279: }
+[; ;PR24.c: 280: delay(200);
+"280
+[e ( _delay (1 -> -> -> 200 `i `l `ul ]
+[; ;PR24.c: 281: }
+"281
+[e :UE 158 ]
+}
+"286
+[v _send_char `(v  1 ef1`uc ]
+{
+[; ;PR24.c: 285: void send_char(unsigned char data)
+[; ;PR24.c: 286: {
+[e :U _send_char ]
+[v _data `uc  1 r1 ]
+[f ]
+"287
+[v _test `uc  1 a ]
+"288
+[v _i `uc  1 a ]
+[; ;PR24.c: 287: unsigned char test;
+[; ;PR24.c: 288: unsigned char i;
+[; ;PR24.c: 289: RB7 = 1;
+"289
+[e = _RB7 -> -> 1 `i `b ]
+[; ;PR24.c: 290: for(i = 0; i < 8; i++)
+"290
+{
+[e = _i -> -> 0 `i `uc ]
+[e $ < -> _i `i -> 8 `i 162  ]
+[e $U 163  ]
+"291
+[e :U 162 ]
+[; ;PR24.c: 291: {
+{
+[; ;PR24.c: 292: test = (data >> i) & 0b00000001;
+"292
+[e = _test -> & >> -> _data `i _i -> 1 `i `uc ]
+[; ;PR24.c: 293: switch(i)
+"293
+[e $U 166  ]
+[; ;PR24.c: 294: {
+"294
+{
+[; ;PR24.c: 295: case 0:
+"295
+[e :U 167 ]
+[; ;PR24.c: 296: if(test == 1) RB5 = 1;
+"296
+[e $ ! == -> _test `i -> 1 `i 168  ]
+[e = _RB5 -> -> 1 `i `b ]
+[e $U 169  ]
+"297
+[e :U 168 ]
+[; ;PR24.c: 297: else RB5 = 0;
+[e = _RB5 -> -> 0 `i `b ]
+[e :U 169 ]
+[; ;PR24.c: 298: case 1:
+"298
+[e :U 170 ]
+[; ;PR24.c: 299: if(test == 1) RB4 = 1;
+"299
+[e $ ! == -> _test `i -> 1 `i 171  ]
+[e = _RB4 -> -> 1 `i `b ]
+[e $U 172  ]
+"300
+[e :U 171 ]
+[; ;PR24.c: 300: else RB4 = 0;
+[e = _RB4 -> -> 0 `i `b ]
+[e :U 172 ]
+[; ;PR24.c: 301: case 2:
+"301
+[e :U 173 ]
+[; ;PR24.c: 302: if(test == 1) RB3 = 1;
+"302
+[e $ ! == -> _test `i -> 1 `i 174  ]
+[e = _RB3 -> -> 1 `i `b ]
+[e $U 175  ]
+"303
+[e :U 174 ]
+[; ;PR24.c: 303: else RB3 = 0;
+[e = _RB3 -> -> 0 `i `b ]
+[e :U 175 ]
+[; ;PR24.c: 304: case 3:
+"304
+[e :U 176 ]
+[; ;PR24.c: 305: if(test == 1) RB2 = 1;
+"305
+[e $ ! == -> _test `i -> 1 `i 177  ]
+[e = _RB2 -> -> 1 `i `b ]
+[e $U 178  ]
+"306
+[e :U 177 ]
+[; ;PR24.c: 306: else RB2 = 0;
+[e = _RB2 -> -> 0 `i `b ]
+[e :U 178 ]
+[; ;PR24.c: 307: case 4:
+"307
+[e :U 179 ]
+[; ;PR24.c: 308: if(test == 1) RB1 = 1;
+"308
+[e $ ! == -> _test `i -> 1 `i 180  ]
+[e = _RB1 -> -> 1 `i `b ]
+[e $U 181  ]
+"309
+[e :U 180 ]
+[; ;PR24.c: 309: else RB1 = 0;
+[e = _RB1 -> -> 0 `i `b ]
+[e :U 181 ]
+[; ;PR24.c: 310: case 5:
+"310
+[e :U 182 ]
+[; ;PR24.c: 311: if(test == 1) RC5 = 1;
+"311
+[e $ ! == -> _test `i -> 1 `i 183  ]
+[e = _RC5 -> -> 1 `i `b ]
+[e $U 184  ]
+"312
+[e :U 183 ]
+[; ;PR24.c: 312: else RC5 = 0;
+[e = _RC5 -> -> 0 `i `b ]
+[e :U 184 ]
+[; ;PR24.c: 313: case 6:
+"313
+[e :U 185 ]
+[; ;PR24.c: 314: if(test == 1) RC4 = 1;
+"314
+[e $ ! == -> _test `i -> 1 `i 186  ]
+[e = _RC4 -> -> 1 `i `b ]
+[e $U 187  ]
+"315
+[e :U 186 ]
+[; ;PR24.c: 315: else RC4 = 0;
+[e = _RC4 -> -> 0 `i `b ]
+[e :U 187 ]
+[; ;PR24.c: 316: case 7:
+"316
+[e :U 188 ]
+[; ;PR24.c: 317: if(test == 1) RC3 = 1;
+"317
+[e $ ! == -> _test `i -> 1 `i 189  ]
+[e = _RC3 -> -> 1 `i `b ]
+[e $U 190  ]
+"318
+[e :U 189 ]
+[; ;PR24.c: 318: else RC3 = 0;
+[e = _RC3 -> -> 0 `i `b ]
+[e :U 190 ]
+"319
+}
+[; ;PR24.c: 319: }
+[e $U 165  ]
+"293
+[e :U 166 ]
+[e [\ _i , $ -> -> 0 `i `uc 167
+ , $ -> -> 1 `i `uc 170
+ , $ -> -> 2 `i `uc 173
+ , $ -> -> 3 `i `uc 176
+ , $ -> -> 4 `i `uc 179
+ , $ -> -> 5 `i `uc 182
+ , $ -> -> 6 `i `uc 185
+ , $ -> -> 7 `i `uc 188
+ 165 ]
+"319
+[e :U 165 ]
+"320
+}
+"290
+[e ++ _i -> -> 1 `i `uc ]
+[e $ < -> _i `i -> 8 `i 162  ]
+[e :U 163 ]
+"320
+}
+[; ;PR24.c: 320: }
+[; ;PR24.c: 321: delay(50);
+"321
+[e ( _delay (1 -> -> -> 50 `i `l `ul ]
+[; ;PR24.c: 322: e_pulse();
+"322
+[e ( _e_pulse ..  ]
+[; ;PR24.c: 323: }
+"323
+[e :UE 161 ]
+}
+"328
+[v _send_string `(v  1 ef1`*Cuc ]
+{
+[; ;PR24.c: 327: void send_string(const char *s)
+[; ;PR24.c: 328: {
+[e :U _send_string ]
+[v _s `*Cuc  1 r1 ]
+[f ]
+"329
+[v _i `uc  1 a ]
+[; ;PR24.c: 329: unsigned char i = 0;
+[e = _i -> -> 0 `i `uc ]
+[; ;PR24.c: 330: while (s && *s) send_char (*s++);
+"330
+[e $U 192  ]
+[e :U 193 ]
+[e ( _send_char (1 *U ++ _s * -> -> 1 `i `x -> -> # *U _s `i `x ]
+[e :U 192 ]
+[e $ && != _s -> -> 0 `i `*Cuc != -> *U _s `i -> -> -> 0 `i `Cuc `i 193  ]
+[e :U 194 ]
+[; ;PR24.c: 331: delay(300);
+"331
+[e ( _delay (1 -> -> -> 300 `i `l `ul ]
+[; ;PR24.c: 332: }
+"332
+[e :UE 191 ]
+}
+"337
+[v _send_dec `(v  1 ef2`ul`uc ]
+{
+[; ;PR24.c: 336: void send_dec(unsigned long data, unsigned char num_dig)
+[; ;PR24.c: 337: {
+[e :U _send_dec ]
+[v _data `ul  1 r1 ]
+[v _num_dig `uc  1 r2 ]
+[f ]
+[; ;PR24.c: 338: if(num_dig >= 10)
+"338
+[e $ ! >= -> _num_dig `i -> 10 `i 196  ]
+[; ;PR24.c: 339: {
+"339
+{
+[; ;PR24.c: 340: data = data % 10000000000;
+"340
+[e = _data % _data -> -> 1410065408 `l `ul ]
+[; ;PR24.c: 341: send_char(data / 1000000000 + 0x30);
+"341
+[e ( _send_char (1 -> + / _data -> -> 1000000000 `l `ul -> -> -> 48 `i `l `ul `uc ]
+"342
+}
+[e :U 196 ]
+[; ;PR24.c: 342: }
+[; ;PR24.c: 343: if(num_dig >= 9)
+"343
+[e $ ! >= -> _num_dig `i -> 9 `i 197  ]
+[; ;PR24.c: 344: {
+"344
+{
+[; ;PR24.c: 345: data = data % 1000000000;
+"345
+[e = _data % _data -> -> 1000000000 `l `ul ]
+[; ;PR24.c: 346: send_char(data / 100000000 + 0x30);
+"346
+[e ( _send_char (1 -> + / _data -> -> 100000000 `l `ul -> -> -> 48 `i `l `ul `uc ]
+"347
+}
+[e :U 197 ]
+[; ;PR24.c: 347: }
+[; ;PR24.c: 348: if(num_dig >= 8)
+"348
+[e $ ! >= -> _num_dig `i -> 8 `i 198  ]
+[; ;PR24.c: 349: {
+"349
+{
+[; ;PR24.c: 350: data = data % 100000000;
+"350
+[e = _data % _data -> -> 100000000 `l `ul ]
+[; ;PR24.c: 351: send_char(data / 10000000 + 0x30);
+"351
+[e ( _send_char (1 -> + / _data -> -> 10000000 `l `ul -> -> -> 48 `i `l `ul `uc ]
+"352
+}
+[e :U 198 ]
+[; ;PR24.c: 352: }
+[; ;PR24.c: 353: if(num_dig >= 7)
+"353
+[e $ ! >= -> _num_dig `i -> 7 `i 199  ]
+[; ;PR24.c: 354: {
+"354
+{
+[; ;PR24.c: 355: data = data % 10000000;
+"355
+[e = _data % _data -> -> 10000000 `l `ul ]
+[; ;PR24.c: 356: send_char(data / 1000000 + 0x30);
+"356
+[e ( _send_char (1 -> + / _data -> -> 1000000 `l `ul -> -> -> 48 `i `l `ul `uc ]
+"357
+}
+[e :U 199 ]
+[; ;PR24.c: 357: }
+[; ;PR24.c: 358: if(num_dig >= 6)
+"358
+[e $ ! >= -> _num_dig `i -> 6 `i 200  ]
+[; ;PR24.c: 359: {
+"359
+{
+[; ;PR24.c: 360: data = data % 1000000;
+"360
+[e = _data % _data -> -> 1000000 `l `ul ]
+[; ;PR24.c: 361: send_char(data / 100000 + 0x30);
+"361
+[e ( _send_char (1 -> + / _data -> -> 100000 `l `ul -> -> -> 48 `i `l `ul `uc ]
+"362
+}
+[e :U 200 ]
+[; ;PR24.c: 362: }
+[; ;PR24.c: 363: if(num_dig >= 5)
+"363
+[e $ ! >= -> _num_dig `i -> 5 `i 201  ]
+[; ;PR24.c: 364: {
+"364
+{
+[; ;PR24.c: 365: data = data % 100000;
+"365
+[e = _data % _data -> -> 100000 `l `ul ]
+[; ;PR24.c: 366: send_char(data / 10000 + 0x30);
+"366
+[e ( _send_char (1 -> + / _data -> -> -> 10000 `i `l `ul -> -> -> 48 `i `l `ul `uc ]
+"367
+}
+[e :U 201 ]
+[; ;PR24.c: 367: }
+[; ;PR24.c: 368: if(num_dig >= 4)
+"368
+[e $ ! >= -> _num_dig `i -> 4 `i 202  ]
+[; ;PR24.c: 369: {
+"369
+{
+[; ;PR24.c: 370: data = data % 10000;
+"370
+[e = _data % _data -> -> -> 10000 `i `l `ul ]
+[; ;PR24.c: 371: send_char(data / 1000 + 0x30);
+"371
+[e ( _send_char (1 -> + / _data -> -> -> 1000 `i `l `ul -> -> -> 48 `i `l `ul `uc ]
+"372
+}
+[e :U 202 ]
+[; ;PR24.c: 372: }
+[; ;PR24.c: 373: if(num_dig >= 3)
+"373
+[e $ ! >= -> _num_dig `i -> 3 `i 203  ]
+[; ;PR24.c: 374: {
+"374
+{
+[; ;PR24.c: 375: data = data % 1000;
+"375
+[e = _data % _data -> -> -> 1000 `i `l `ul ]
+[; ;PR24.c: 376: send_char(data / 100 + 0x30);
+"376
+[e ( _send_char (1 -> + / _data -> -> -> 100 `i `l `ul -> -> -> 48 `i `l `ul `uc ]
+"377
+}
+[e :U 203 ]
+[; ;PR24.c: 377: }
+[; ;PR24.c: 378: if(num_dig >= 2)
+"378
+[e $ ! >= -> _num_dig `i -> 2 `i 204  ]
+[; ;PR24.c: 379: {
+"379
+{
+[; ;PR24.c: 380: data=data % 100;
+"380
+[e = _data % _data -> -> -> 100 `i `l `ul ]
+[; ;PR24.c: 381: send_char(data / 10 + 0x30);
+"381
+[e ( _send_char (1 -> + / _data -> -> -> 10 `i `l `ul -> -> -> 48 `i `l `ul `uc ]
+"382
+}
+[e :U 204 ]
+[; ;PR24.c: 382: }
+[; ;PR24.c: 383: if(num_dig >= 1)
+"383
+[e $ ! >= -> _num_dig `i -> 1 `i 205  ]
+[; ;PR24.c: 384: {
+"384
+{
+[; ;PR24.c: 385: data = data % 10;
+"385
+[e = _data % _data -> -> -> 10 `i `l `ul ]
+[; ;PR24.c: 386: send_char(data + 0x30);
+"386
+[e ( _send_char (1 -> + _data -> -> -> 48 `i `l `ul `uc ]
+"387
+}
+[e :U 205 ]
+[; ;PR24.c: 387: }
+[; ;PR24.c: 388: }
+"388
+[e :UE 195 ]
+}
+"394
+[v F1036 `(v  1 tf ]
+[v _isr `IF1036  1 s ]
+{
+[; ;PR24.c: 393: static void interrupt isr(void)
+[; ;PR24.c: 394: {
+[e :U _isr ]
+[f ]
+"395
+[v _set_value `i  1 a ]
+[; ;PR24.c: 395: signed int set_value = 0;
+[e = _set_value -> 0 `i ]
+"396
+[v _feedback_value `i  1 a ]
+[; ;PR24.c: 396: signed int feedback_value = 0;
+[e = _feedback_value -> 0 `i ]
+"397
+[v _error_value `l  1 a ]
+[; ;PR24.c: 397: signed long error_value = 0;
+[e = _error_value -> -> 0 `i `l ]
+"398
+[v F1040 `l  1 s pre_error ]
+[i F1040
+-> -> 0 `i `l
+]
+"399
+[v F1041 `l  1 s integral ]
+[i F1041
+-> -> 0 `i `l
+]
+"400
+[v _derivative `l  1 a ]
+[; ;PR24.c: 398: static signed long pre_error = 0;
+[; ;PR24.c: 399: static signed long integral = 0;
+[; ;PR24.c: 400: signed long derivative = 0;
+[e = _derivative -> -> 0 `i `l ]
+"401
+[v _output `l  1 a ]
+[; ;PR24.c: 401: signed long output = 0;
+[e = _output -> -> 0 `i `l ]
+"402
+[v _motor_direction `i  1 a ]
+[; ;PR24.c: 402: signed int motor_direction = 0;
+[e = _motor_direction -> 0 `i ]
+"405
+[v _pwm_value `uc  1 a ]
+[; ;PR24.c: 405: unsigned char pwm_value=0;
+[e = _pwm_value -> -> 0 `i `uc ]
+[; ;PR24.c: 407: if(TMR1IF == 1)
+"407
+[e $ ! == -> _TMR1IF `i -> 1 `i 207  ]
+[; ;PR24.c: 408: {
+"408
+{
+[; ;PR24.c: 409: TMR1IF = 0;
+"409
+[e = _TMR1IF -> -> 0 `i `b ]
+[; ;PR24.c: 411: feedback_value = ai_read(1);
+"411
+[e = _feedback_value -> ( _ai_read (1 -> -> 1 `i `uc `i ]
+[; ;PR24.c: 412: set_value = ai_read(0);
+"412
+[e = _set_value -> ( _ai_read (1 -> -> 0 `i `uc `i ]
+[; ;PR24.c: 414: error_value = set_value - feedback_value;
+"414
+[e = _error_value -> - _set_value _feedback_value `l ]
+[; ;PR24.c: 415: integral = integral + error_value;
+"415
+[e = F1041 + F1041 _error_value ]
+[; ;PR24.c: 416: derivative = error_value - pre_error;
+"416
+[e = _derivative - _error_value F1040 ]
+[; ;PR24.c: 418: output = (kp * error_value) + (ki * integral) + (kd * derivative);
+"418
+[e = _output + + * -> _kp `l _error_value * -> _ki `l F1041 * -> _kd `l _derivative ]
+[; ;PR24.c: 420: if (output > 255) output = 255;
+"420
+[e $ ! > _output -> -> 255 `i `l 208  ]
+[e = _output -> -> 255 `i `l ]
+[e $U 209  ]
+"421
+[e :U 208 ]
+[; ;PR24.c: 421: else if (output < -255) output = -255;
+[e $ ! < _output -> -U -> 255 `i `l 210  ]
+[e = _output -> -U -> 255 `i `l ]
+[e :U 210 ]
+"423
+[e :U 209 ]
+[; ;PR24.c: 423: if (output > 0) motor_right((unsigned char)output);
+[e $ ! > _output -> -> 0 `i `l 211  ]
+[e ( _motor_right (1 -> _output `uc ]
+[e $U 212  ]
+"424
+[e :U 211 ]
+[; ;PR24.c: 424: else if (output < 0) motor_left((unsigned char)(-output));
+[e $ ! < _output -> -> 0 `i `l 213  ]
+[e ( _motor_left (1 -> -U _output `uc ]
+[e $U 214  ]
+"425
+[e :U 213 ]
+[; ;PR24.c: 425: else motor_stop();
+[e ( _motor_stop ..  ]
+[e :U 214 ]
+[e :U 212 ]
+[; ;PR24.c: 427: pre_error = error_value;
+"427
+[e = F1040 _error_value ]
+"428
+}
+[e :U 207 ]
+[; ;PR24.c: 428: }
+[; ;PR24.c: 429: }
+"429
+[e :UE 206 ]
+}
+[a 2C 80 61 0 ]
+[a 3C 73 61 0 ]
+[a 1C 65 78 71 76 69 61 0 ]
+[a 4C 68 61 0 ]

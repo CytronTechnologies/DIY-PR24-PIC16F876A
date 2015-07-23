@@ -1,0 +1,25 @@
+_send_dec: CODE, 21 0 676
+___awdiv: CODE, 3690 0 118
+_delay: CODE, 3166 0 50
+_main: CODE, 1154 0 369
+i1___awdiv: CODE, 3572 0 118
+i1___wmul: CODE, 2984 0 42
+___lmul: CODE, 3290 0 76
+_lcd_clr: CODE, 2925 0 22
+i1___lmul: CODE, 3216 0 74
+_lcd_goto: CODE, 3118 0 48
+_send_string: CODE, 1975 0 56
+___lldiv: CODE, 3460 0 112
+_isr: CODE, 697 0 457
+_motor_stop: CODE, 2903 0 6
+_send_config: CODE, 1749 0 226
+_e_pulse: CODE, 2947 0 37
+_send_char: CODE, 1523 0 226
+_motor_left: CODE, 2917 0 8
+___llmod: CODE, 3366 0 94
+_ai_read: CODE, 3939 0 157
+i1_delay: CODE, 3070 0 48
+___wmul: CODE, 3026 0 44
+_motor_right: CODE, 2909 0 8
+i1_ai_read: CODE, 3808 0 131
+Total: 3203
